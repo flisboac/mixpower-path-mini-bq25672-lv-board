@@ -1,8 +1,8 @@
 *-cache
 *.cache
 *.log
-/production
-production
+#/production
+#production
 build
 *-backups
 *.backups

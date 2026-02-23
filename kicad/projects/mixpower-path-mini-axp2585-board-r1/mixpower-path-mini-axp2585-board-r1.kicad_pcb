@@ -126,16 +126,16 @@
 			(dxfusepcbnewfont yes)
 			(psnegative no)
 			(psa4output no)
-			(plot_black_and_white yes)
+			(plot_black_and_white no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
 			(sketchdnponfab yes)
 			(crossoutdnponfab yes)
 			(subtractmaskfromsilk no)
-			(outputformat 1)
+			(outputformat 5)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
 			(outputdirectory "")
 		)
@@ -260,7 +260,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/4dd627ad-73e3-441d-861f-335263e4935d")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -402,7 +402,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/5a3ebd72-94bb-40c9-bf30-ed6bdf237775")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -714,7 +714,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/2d569544-5b78-4ba6-b846-666534d752eb")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 13.61 0.5)
@@ -1379,7 +1379,7 @@
 		)
 		(path "/ce9eee2c-99d4-4d68-b6b5-d4cd74b26721")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.735 1.16)
@@ -1725,7 +1725,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c8cbc798-d155-4f8b-8337-55ff01511994")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -2049,7 +2049,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "10k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "fbf0b3f3-608d-4b28-baec-178a86315d56")
@@ -2087,7 +2087,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/4dfc4980-861f-4a9a-971d-ae10b39cee71")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -2489,7 +2489,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c4bac9d4-a08c-4b70-a59b-71c61de5bfe8")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -2632,7 +2632,7 @@
 		)
 		(path "/8ef60f51-df5c-4579-a620-0be66571529a")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.13 -1.14)
@@ -2890,7 +2890,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b99bc2d2-0128-4c0d-8833-43a87faa9ebc")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -3029,7 +3029,7 @@
 		)
 		(path "/de9bd46f-d122-4314-8265-6f0619193033")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -3370,7 +3370,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/5bdfa2fe-65ff-43ff-b6b4-adabae49fe6a")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -0.153641 0.38)
@@ -3525,7 +3525,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/b2daf587-487d-4cba-860d-2e9638dd3a0b")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.735)
@@ -3718,7 +3718,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/c7e87d0e-2a7b-4d7c-ade9-57be3a38467f")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -3817,7 +3817,7 @@
 		)
 		(path "/69f581e4-0373-4411-9134-bfbca789b332")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.735 1.16)
@@ -4163,7 +4163,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/28bedc79-d7e7-47b9-a3c2-5ae4397be0e9")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -4305,7 +4305,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/687607b1-9e3a-4c27-99eb-becad30bc69c")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 0.36)
@@ -4409,7 +4409,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "10k"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "b790a04e-7e9d-47aa-9d09-e86329664c02")
@@ -4447,7 +4447,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6c65db1f-5af2-4805-a434-d34006becbe5")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -4588,7 +4588,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9805e956-9739-4c27-b769-30d4a2b4af39")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -4732,7 +4732,7 @@
 		(property ki_fp_filters "D*SOD?323*")
 		(path "/22e66365-fa61-41e7-9cd8-96bb9d0695f3")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.61 -0.85)
@@ -5004,7 +5004,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f2eec187-d130-4210-8966-6f53a6613d54")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 0.36)
@@ -5146,7 +5146,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0efa32e7-0216-4b9c-bf3e-465dc320a890")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 0.36)
@@ -5287,7 +5287,7 @@
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/27a62f3c-15f8-4f05-8b62-9d677949273e")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.38 -1.38)
@@ -5630,7 +5630,7 @@
 		)
 		(path "/eee64c42-7b64-4dbf-b668-5d2cfa4395aa")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.000001 1.649999)
@@ -5946,7 +5946,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/5a586d92-c069-49ec-b25a-27ff30415c3e")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.735)
@@ -6139,7 +6139,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8fffca55-d916-47aa-9bb3-ddac250b6456")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -6283,7 +6283,7 @@
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/2fabdd9d-0a6e-4e5e-9160-50da91bd6875")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 4.7 2)
@@ -6701,7 +6701,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/7cb5ef3e-4940-4006-92e1-77d1473d74be")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -6802,7 +6802,7 @@
 		)
 		(path "/f071914c-d1cf-480d-8a83-f7c94e08378b")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.7 1.16)
@@ -7066,7 +7066,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/cd946804-35d0-4eaf-a6f5-13b57213bc85")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.723737 1.355)
@@ -7208,7 +7208,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/6cca2362-9046-4c02-b705-627fa9d2d573")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -7320,7 +7320,7 @@
 		)
 		(path "/01edd70a-00d8-4cca-8cd4-f80b8e2008c1")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.26 -2.26)
@@ -8161,7 +8161,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ae3f810a-2e81-4a70-a36b-3092a70b713f")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -8305,7 +8305,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/460be71c-b5de-42fe-85e5-e5e4ccee79a7")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.5 0.4)
@@ -8657,7 +8657,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e3dfe7a9-4fec-43f5-8e1f-8c89adcd2a93")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -8799,7 +8799,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/7e331281-5ea8-4c07-8258-e36b60f5e3b5")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.91 1.56)
@@ -9147,7 +9147,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/da3c8df0-ff6b-41b7-9db5-2ff4c5489649")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.5 -0.4)
@@ -9501,7 +9501,7 @@
 		(property ki_fp_filters "SOT-363 SOT-363_* SC-88_*")
 		(path "/dcfcf902-745a-4a4c-8109-ea6d4b0e4cc9")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.71 -1.16)
@@ -9765,7 +9765,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/6026e5ff-c595-47e4-86b6-92f26e96ec83")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 0.36)
@@ -9908,7 +9908,7 @@
 		)
 		(path "/511d104a-eb03-413f-bb9d-f1ffd579015d")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.71 1.11)
@@ -10166,7 +10166,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/25723953-5561-43cc-9c7e-04cb0bf71f65")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -10308,7 +10308,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a1cda2aa-daad-4ac1-9bfe-7b6f97b68ba3")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -10620,7 +10620,7 @@
 		(property ki_fp_filters "R_* RV_*")
 		(path "/d50d9f39-a134-449d-a7d3-8ea8ef500eaf")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -10762,7 +10762,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/bf186e86-b3da-41d4-aa69-a1c12808c6b3")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -10866,7 +10866,7 @@
 				)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "4.7M"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "a51550d8-d7f0-4bdb-96fa-815ab079b69b")
@@ -10904,7 +10904,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/aa9f3d5a-136a-4a94-ad83-b949d9051090")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -11048,7 +11048,7 @@
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/5fafd584-13a1-4d22-a864-f0ec1403682d")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 2.154 2.154)
@@ -11246,7 +11246,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9300c032-797e-4b7f-b5e8-45dba6d2b235")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -11388,7 +11388,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/815aa84d-f009-4942-a7d3-128905dc6bf3")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -11530,7 +11530,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c25efb03-e423-427b-8950-abdb4e44659d")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -11672,7 +11672,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/067400c6-7191-4991-8d57-0f37e9e571d2")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -11814,7 +11814,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/53c1e9fe-3231-4201-87c6-6dd4018fe1d0")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.38 -1.38)
@@ -12179,7 +12179,7 @@
 		(property ki_fp_filters "SOT?323_SC?70*")
 		(path "/b48c658e-f43d-4abc-9267-20d891626e2a")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.735 -1.16)
@@ -12487,7 +12487,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7M"
+		(property "Value" "1M"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "00e49d6a-86f3-47a6-8754-fd191d0c66f7")
@@ -12525,7 +12525,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b54ab80d-5989-482e-ad59-008033cb38b0")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -12667,7 +12667,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/df32f50c-75ab-4b20-a80c-767e0118ac12")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 0.36)
@@ -12809,7 +12809,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/d0cbd28f-f4ba-48ae-900b-40682c99d36d")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -12951,7 +12951,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b8c8db9f-6966-48f8-8283-7378dbc0b951")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -13094,7 +13094,7 @@
 		)
 		(path "/8de84527-6ece-422a-aacb-dbf679154113")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.12 0.97)
@@ -13352,7 +13352,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0b252a6f-639b-476e-a7d9-b933906bdecf")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -13494,7 +13494,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/21c82778-7e57-4c47-a505-5f0422a336f6")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -13636,7 +13636,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/65d47516-c011-4320-8522-373298d63dc0")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -13778,7 +13778,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/20835258-c139-4edb-a05b-2895db5e823c")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 0.36)
@@ -13920,7 +13920,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b8c3d428-a1ad-435b-a57a-87e85e48c5ee")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -14062,7 +14062,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/51a95ae6-1134-4f6d-b254-7443f227a587")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 0.36)
@@ -14166,7 +14166,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "10k"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "6c59eaff-2e71-4c15-9036-0b61d741d1ca")
@@ -14204,7 +14204,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d1f13092-980c-496c-9b82-3846717cf2fe")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -14308,7 +14308,7 @@
 				)
 			)
 		)
-		(property "Value" "MIC5219-3.3YM5"
+		(property "Value" "RT9080"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "2fd0d051-8e5f-43e4-8cc2-1a414a7af72b")
@@ -14346,7 +14346,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/4fa58b3c-b577-4b9b-85b8-9e9bace00b88")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.91 1.56)
@@ -14732,7 +14732,7 @@
 		(property ki_fp_filters "*Fuse*")
 		(path "/036bf17f-e014-4ee1-be7f-b5ae795c517d")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.602064 1.36)
@@ -14924,7 +14924,7 @@
 		)
 		(path "/29a5c199-b4e6-40c6-a9c3-8a373aad48e3")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.6 -1.23)
@@ -15197,7 +15197,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/7e479e27-f1cb-42bb-b477-af3770c428a6")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 0.36)
@@ -15301,7 +15301,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "806k"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "1ef678e7-3d9e-4737-8b60-0636e093928f")
@@ -15339,7 +15339,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ba93963a-8e9a-47e3-a40d-5f3921e50a11")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -15443,7 +15443,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "10k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "cc2e9396-2b67-4b55-a180-bd3b04117e88")
@@ -15481,7 +15481,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b88de220-2512-4aef-8bf0-63793f542a47")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -15623,7 +15623,7 @@
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/fae03dcb-e6aa-4b91-a8e2-cec13de3b61c")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.26 2.26)
@@ -15785,7 +15785,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/95747336-3d2d-4a73-abbc-30d564e0bb3c")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -15927,7 +15927,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/2a5884eb-938d-410d-a7b0-6eea2f13b6de")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -16069,7 +16069,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/77fc6e69-6ae1-4800-9c54-2c375c70224e")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 0.36)
@@ -16173,7 +16173,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "91k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "d24eebca-78c6-4a9f-b7bf-ad3c5b9cd846")
@@ -16211,7 +16211,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/18312fb0-14d7-4d25-8f6f-854a8acd9e34")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -16353,7 +16353,7 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/32ffe768-f5f7-4811-8c9a-18ea12b7e7a9")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.602064 1.36)
@@ -16495,7 +16495,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8574a83f-bc03-458c-9291-1a719dc660c0")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 0.36)
@@ -16637,7 +16637,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/1c35e2a9-8fbd-4d20-ae89-d5d9cb6c8104")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -16779,7 +16779,7 @@
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/1b44d617-524d-405b-8a13-b8bd1ed37271")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.06 6.36)
@@ -17208,7 +17208,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/54f1a4b6-2baa-44f7-8845-2993aa9c9d5b")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 0.36)
@@ -17357,7 +17357,7 @@
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/fc7ef7a1-7a3c-450d-8495-504f48a6e708")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(zone_connect 1)
 		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 		(fp_rect
@@ -17632,7 +17632,7 @@
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/ec0e88e2-31ea-48c5-b98e-8d7f2c048f8f")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(zone_connect 1)
 		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 		(fp_rect
@@ -17907,7 +17907,7 @@
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/43af13ee-fc62-4a15-9828-6eaca332e376")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(zone_connect 1)
 		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 		(fp_rect
@@ -18221,7 +18221,7 @@
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/96dec4a9-33fb-4ffd-9836-62a1a3e21ebf")
 		(sheetname "/")
-		(sheetfile "mixpower-path-tiny-axp2585-board-r1.kicad_sch")
+		(sheetfile "mixpower-path-mini-axp2585-board-r1.kicad_sch")
 		(zone_connect 1)
 		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 		(fp_rect
