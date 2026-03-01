@@ -546,7 +546,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "mixpower-path-tiny-axp2585-board-r1.kicad_pro",
+    "filename": "mixpower-path-mini-axp2585-board-r1.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -791,7 +791,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "plot/pcb/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -910,7 +910,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "plot/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",

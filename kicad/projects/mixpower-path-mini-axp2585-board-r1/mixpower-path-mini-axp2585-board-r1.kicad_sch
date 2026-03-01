@@ -14714,7 +14714,7 @@
 			(justify right bottom)
 		)
 		(uuid "a733fba5-3e2b-4236-b6ae-b635b94e2204")
-		(property "info" "@ 2.5A"
+		(property "info" "@ 2A"
 			(at 118.11 60.579 0)
 			(effects
 				(font
