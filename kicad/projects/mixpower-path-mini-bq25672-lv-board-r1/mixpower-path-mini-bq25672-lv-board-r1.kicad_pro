@@ -873,10 +873,6 @@
       "input-usb"
     ],
     [
-      "62cc8ba8-a4a6-4ef3-833b-8755302cfb85",
-      "power-path"
-    ],
-    [
       "7979e167-2bba-4fab-b04a-4b73a0d2689b",
       "input-battery"
     ],
@@ -885,28 +881,32 @@
       "input-vext"
     ],
     [
-      "0c490263-3bfd-4460-9ca6-8d4376513887",
-      "vpath-vdd1"
+      "62cc8ba8-a4a6-4ef3-833b-8755302cfb85",
+      "power-path"
     ],
     [
-      "5c2c325f-e10e-46bb-bd14-248e2a150bcb",
-      "output-headers"
-    ],
-    [
-      "5466418f-b2b4-4596-a9b6-c57ae166d794",
-      "soc-control"
-    ],
-    [
-      "48666261-bb79-4da6-aeba-03c91aeede23",
-      "util-rgb"
+      "362efeee-2c25-41c6-bfd4-fc15222d8914",
+      "soc-vreg"
     ],
     [
       "02edf1bd-e23a-4a4a-8860-4d5790274652",
       "util-buttons"
     ],
     [
-      "362efeee-2c25-41c6-bfd4-fc15222d8914",
-      "soc-vreg"
+      "5466418f-b2b4-4596-a9b6-c57ae166d794",
+      "soc-control"
+    ],
+    [
+      "0c490263-3bfd-4460-9ca6-8d4376513887",
+      "vpath-vdd1"
+    ],
+    [
+      "48666261-bb79-4da6-aeba-03c91aeede23",
+      "util-rgb"
+    ],
+    [
+      "5c2c325f-e10e-46bb-bd14-248e2a150bcb",
+      "output-headers"
     ]
   ],
   "text_variables": {

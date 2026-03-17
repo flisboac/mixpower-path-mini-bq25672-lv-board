@@ -2815,7 +2815,7 @@
 	)
 	(text "[input-usb] USB-C Connector: Protections, Filter and VUSB Discharge"
 		(exclude_from_sim no)
-		(at 83.82 20.32 0)
+		(at 90.17 20.32 0)
 		(effects
 			(font
 				(size 2.032 2.032)

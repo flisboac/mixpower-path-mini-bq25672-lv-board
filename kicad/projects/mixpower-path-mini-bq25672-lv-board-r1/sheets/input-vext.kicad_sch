@@ -769,7 +769,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "mixlib-discrete-mosfet:SIA931DJ"
+		(symbol "mixlib-discrete-mosfet:NTLJS17D0P03P8Z"
 			(pin_names
 				(hide yes)
 			)
@@ -777,40 +777,22 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 3.302 1.778 0)
+				(at 3.048 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "SIA931DJ"
-				(at 7.112 -0.508 0)
+			(property "Value" "NTLJS17D0P03P8Z"
+				(at 10.668 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "mixlib-generic-dfn:Diodes-Incorporated_U-DFN2020-6_Type-B"
-				(at 0.508 -12.192 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/62859/sia931dj.pdf"
-				(at 2.032 -14.224 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Dual P-Channel 30 V (D-S) 4A MOSFET, U-DFN2020-6 TYPE-B"
+			(property "Footprint" "mixlib-vendor-onsemi:vendor-onsemi-483av"
 				(at 0 0 0)
 				(effects
 					(font
@@ -819,7 +801,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Library" "${MIXLIB_KICAD_SPICE_DIR}/mixlib-discrete-pmos/SIA931DJ.cir"
+			(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/ntljs17d0p03p8z-d.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -828,7 +810,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Name" "SiA931DJ"
+			(property "Description" "30V 11.7A Single P-Channel MOSFET, WDFN6 / DFN-2020-6"
 				(at 0 0 0)
 				(effects
 					(font
@@ -837,33 +819,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "SUBCKT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=S1 2=G1 3=D2 4=S2 5=G2 6=D1 7=D1_EP 8=D2_EP"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SIA931DJ_0_1"
+			(symbol "NTLJS17D0P03P8Z_0_1"
 				(polyline
 					(pts
 						(xy -2.286 1.905) (xy -2.286 -1.905)
@@ -1030,103 +986,11 @@
 					)
 				)
 			)
-			(symbol "SIA931DJ_1_1"
-				(pin passive line
+			(symbol "NTLJS17D0P03P8Z_1_1"
+				(pin input line
 					(at -7.62 0 0)
 					(length 2.54)
-					(name "G1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "D1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "D1_EP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "S1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SIA931DJ_2_1"
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "G2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "D2"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1144,14 +1008,86 @@
 				(pin passive line
 					(at 0 5.08 270)
 					(length 2.54)
-					(name "D2_EP"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1162,7 +1098,7 @@
 				(pin passive line
 					(at 0 -5.08 90)
 					(length 2.54)
-					(name "S2"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1170,6 +1106,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1384,7 +1338,7 @@
 		)
 	)
 	(rectangle
-		(start 67.31 33.02)
+		(start 67.31 41.91)
 		(end 166.37 86.36)
 		(stroke
 			(width 0)
@@ -1397,7 +1351,7 @@
 		(uuid 316abe29-2f33-4255-9644-0e6053222d40)
 	)
 	(rectangle
-		(start 92.71 41.91)
+		(start 92.71 49.53)
 		(end 123.19 85.09)
 		(stroke
 			(width 0)
@@ -1409,7 +1363,7 @@
 		(uuid 54c68960-947d-4069-bb59-1bcb19399f6f)
 	)
 	(rectangle
-		(start 124.46 41.91)
+		(start 124.46 49.53)
 		(end 165.1 85.09)
 		(stroke
 			(width 0)
@@ -1421,7 +1375,7 @@
 		(uuid 71097050-164e-4a81-adb4-e5ddf29c010e)
 	)
 	(rectangle
-		(start 68.58 41.91)
+		(start 68.58 49.53)
 		(end 91.44 85.09)
 		(stroke
 			(width 0)
@@ -1446,7 +1400,7 @@
 	)
 	(text "[input-vext] External Power Input: Connectors and RPP"
 		(exclude_from_sim no)
-		(at 118.11 36.83 0)
+		(at 118.11 45.72 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -1482,22 +1436,10 @@
 		(uuid "af0a3550-fd9f-45ae-b3e0-e3654e7f181c")
 	)
 	(junction
-		(at 142.24 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3705a2e9-a930-4ec9-8856-69078001db0d")
-	)
-	(junction
 		(at 113.03 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e0c675d-c6e5-4f58-a6fc-73176955c0e7")
-	)
-	(junction
-		(at 125.73 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "66b931e2-4c09-49c9-b03f-30c228dec647")
 	)
 	(junction
 		(at 113.03 58.42)
@@ -1516,12 +1458,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77c0193a-8249-4f7d-a66a-143563c765aa")
-	)
-	(junction
-		(at 148.59 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "882980b5-f24c-415a-814c-0d4761103be8")
 	)
 	(junction
 		(at 149.86 58.42)
@@ -1557,16 +1493,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 67.31) (xy 142.24 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "148992ba-c881-4d27-8d26-8862115de337")
-	)
-	(wire
-		(pts
 			(xy 113.03 58.42) (xy 102.87 58.42)
 		)
 		(stroke
@@ -1587,7 +1513,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 67.31) (xy 142.24 68.58)
+			(xy 142.24 66.04) (xy 142.24 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1617,16 +1543,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 57.15) (xy 134.62 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fe35680-b831-43af-b18f-c046bb37ac61")
-	)
-	(wire
-		(pts
 			(xy 142.24 68.58) (xy 142.24 71.12)
 		)
 		(stroke
@@ -1634,16 +1550,6 @@
 			(type default)
 		)
 		(uuid "436ae7b3-23ca-4ede-817e-fde515ae6008")
-	)
-	(wire
-		(pts
-			(xy 139.7 49.53) (xy 148.59 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b1471ec-ada3-4d3e-8fe3-57b2276bb86a")
 	)
 	(wire
 		(pts
@@ -1667,7 +1573,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 58.42) (xy 137.16 58.42)
+			(xy 113.03 58.42) (xy 137.16 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1687,26 +1593,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 58.42) (xy 149.86 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f8032d7-9129-4cfc-afa3-30b7a5fa45c6")
-	)
-	(wire
-		(pts
-			(xy 125.73 49.53) (xy 125.73 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66a9873c-0ad0-482d-b8a4-f724a81916b9")
-	)
-	(wire
-		(pts
 			(xy 102.87 72.39) (xy 102.87 77.47)
 		)
 		(stroke
@@ -1714,16 +1600,6 @@
 			(type default)
 		)
 		(uuid "8c9a7fc9-7214-4d1f-9e1b-5803bbc9623f")
-	)
-	(wire
-		(pts
-			(xy 148.59 49.53) (xy 148.59 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "977fcbef-6469-4c47-a38c-07acfefa26a4")
 	)
 	(wire
 		(pts
@@ -1757,7 +1633,7 @@
 	)
 	(polyline
 		(pts
-			(xy 67.31 39.37) (xy 166.37 39.37)
+			(xy 67.31 48.26) (xy 166.37 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1808,43 +1684,13 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 49.53) (xy 125.73 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc3d6112-f466-4a2e-b24f-cd678e78720f")
-	)
-	(wire
-		(pts
-			(xy 113.03 58.42) (xy 125.73 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc55ae9b-c80f-43dd-8d4e-27e1d56cc017")
-	)
-	(wire
-		(pts
-			(xy 147.32 58.42) (xy 148.59 58.42)
+			(xy 147.32 58.42) (xy 149.86 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f0bf4787-7850-4839-860a-424471100262")
-	)
-	(wire
-		(pts
-			(xy 142.24 66.04) (xy 142.24 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe06881f-4c1f-4717-bf1d-1e110a8b3950")
 	)
 	(label "VEXT_IN"
 		(at 82.55 58.42 0)
@@ -2376,128 +2222,6 @@
 		)
 	)
 	(symbol
-		(lib_id "mixlib-discrete-mosfet:SIA931DJ")
-		(at 134.62 49.53 90)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7768c46f-f4df-4b53-9bed-815673b32728")
-		(property "Reference" "Q5"
-			(at 134.62 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SIA931DJ"
-			(at 134.62 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "mixlib-generic-dfn:Diodes-Incorporated_U-DFN2020-6_Type-B"
-			(at 146.812 49.022 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/62859/sia931dj.pdf"
-			(at 148.844 47.498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual P-Channel 30 V (D-S) 4A MOSFET, U-DFN2020-6 TYPE-B"
-			(at 134.62 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${MIXLIB_KICAD_SPICE_DIR}/mixlib-discrete-pmos/SIA931DJ.cir"
-			(at 134.62 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "SiA931DJ"
-			(at 134.62 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 134.62 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=S1 2=G1 3=D2 4=S2 5=G2 6=D1 7=D1_EP 8=D2_EP"
-			(at 134.62 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "af2ba173-2ed5-4c68-b2ab-fe879dbaf191")
-		)
-		(pin "2"
-			(uuid "6d763413-faef-44e3-bded-b20d27bcb0b8")
-		)
-		(pin "1"
-			(uuid "2ee41d73-661e-40d1-a0f3-991e1e1ea26d")
-		)
-		(pin "5"
-			(uuid "ab40d9f8-2817-4502-b5fa-e6b5412178d5")
-		)
-		(pin "8"
-			(uuid "21a290a2-a067-4697-bad8-4acc1ae72343")
-		)
-		(pin "7"
-			(uuid "3a332ea0-f6ea-4d62-9bfb-3d734de5141d")
-		)
-		(pin "3"
-			(uuid "3cdf8d9e-ed0f-4201-9624-b4c8c4fa91cb")
-		)
-		(pin "6"
-			(uuid "8dd5aa2e-3c8f-48f9-a249-5338d69e7672")
-		)
-		(instances
-			(project ""
-				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/050b3b40-3e43-4f8a-9f9d-8e85b6cb1fd2"
-					(reference "Q5")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 113.03 73.66 0)
 		(unit 1)
@@ -2561,128 +2285,6 @@
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/050b3b40-3e43-4f8a-9f9d-8e85b6cb1fd2"
 					(reference "C34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mixlib-discrete-mosfet:SIA931DJ")
-		(at 142.24 58.42 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a00a2808-100e-45a6-9e4b-9d4233d20f47")
-		(property "Reference" "Q5"
-			(at 142.24 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SIA931DJ"
-			(at 142.24 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "mixlib-generic-dfn:Diodes-Incorporated_U-DFN2020-6_Type-B"
-			(at 154.432 57.912 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/62859/sia931dj.pdf"
-			(at 156.464 56.388 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual P-Channel 30 V (D-S) 4A MOSFET, U-DFN2020-6 TYPE-B"
-			(at 142.24 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${MIXLIB_KICAD_SPICE_DIR}/mixlib-discrete-pmos/SIA931DJ.cir"
-			(at 142.24 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "SiA931DJ"
-			(at 142.24 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 142.24 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=S1 2=G1 3=D2 4=S2 5=G2 6=D1 7=D1_EP 8=D2_EP"
-			(at 142.24 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "af2ba173-2ed5-4c68-b2ab-fe879dbaf192")
-		)
-		(pin "2"
-			(uuid "6d763413-faef-44e3-bded-b20d27bcb0b9")
-		)
-		(pin "1"
-			(uuid "2ee41d73-661e-40d1-a0f3-991e1e1ea26e")
-		)
-		(pin "5"
-			(uuid "ab40d9f8-2817-4502-b5fa-e6b5412178d6")
-		)
-		(pin "8"
-			(uuid "21a290a2-a067-4697-bad8-4acc1ae72344")
-		)
-		(pin "7"
-			(uuid "3a332ea0-f6ea-4d62-9bfb-3d734de5141e")
-		)
-		(pin "3"
-			(uuid "3cdf8d9e-ed0f-4201-9624-b4c8c4fa91cc")
-		)
-		(pin "6"
-			(uuid "8dd5aa2e-3c8f-48f9-a249-5338d69e7673")
-		)
-		(instances
-			(project ""
-				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/050b3b40-3e43-4f8a-9f9d-8e85b6cb1fd2"
-					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -2818,6 +2420,92 @@
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/050b3b40-3e43-4f8a-9f9d-8e85b6cb1fd2"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mixlib-discrete-mosfet:NTLJS17D0P03P8Z")
+		(at 142.24 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb451af8-dc3f-4ead-82ea-211229e804eb")
+		(property "Reference" "Q8"
+			(at 142.24 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NTLJS17D0P03P8Z"
+			(at 142.24 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mixlib-vendor-onsemi:vendor-onsemi-483av"
+			(at 142.24 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/ntljs17d0p03p8z-d.pdf"
+			(at 142.24 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "30V 11.7A Single P-Channel MOSFET, WDFN6 / DFN-2020-6"
+			(at 142.24 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f1b63d00-ef05-4990-9d60-954062792cba")
+		)
+		(pin "5"
+			(uuid "b775bfb9-9d4b-43c2-9000-2f29c60dd30b")
+		)
+		(pin "6"
+			(uuid "30eaba55-d9a6-439f-b419-59e34f776e8d")
+		)
+		(pin "8"
+			(uuid "8d0cbf47-d09f-4482-a875-90d4032cf9d5")
+		)
+		(pin "7"
+			(uuid "5c3e6c44-b463-4dda-a212-7d391296aaa0")
+		)
+		(pin "3"
+			(uuid "75e2ca77-2281-42f0-9124-685c14f67342")
+		)
+		(pin "4"
+			(uuid "3d49f99f-ace5-429f-82b8-700c59be75a8")
+		)
+		(pin "1"
+			(uuid "8c67f17e-d54d-4bcb-a203-9abaad1da0e6")
+		)
+		(instances
+			(project ""
+				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/050b3b40-3e43-4f8a-9f9d-8e85b6cb1fd2"
+					(reference "Q8")
 					(unit 1)
 				)
 			)
