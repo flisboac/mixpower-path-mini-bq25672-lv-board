@@ -702,7 +702,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "mixlib-discrete-mosfet:SI2101A"
+		(symbol "mixlib-discrete-mosfet:PJE8405"
 			(pin_names
 				(hide yes)
 			)
@@ -717,7 +717,7 @@
 					)
 				)
 			)
-			(property "Value" "SI2101A"
+			(property "Value" "PJE8405"
 				(at 6.096 -1.27 0)
 				(effects
 					(font
@@ -725,7 +725,34 @@
 					)
 				)
 			)
-			(property "Footprint" "mixlib-generic-sot:SOT-323_SC-70"
+			(property "Footprint" "mixlib-generic-sot:SOT-523"
+				(at 1.27 -5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/PJE8405.pdf"
+				(at 0 -4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "30V 0.5A P-CHANNEL ENHANCEMENT MOSFET, SOT-523"
+				(at 0.508 -6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*SOT?523*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -734,25 +761,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.mccsemi.com/pdf/products/SI2101A(SOT-323).pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "20V 2A P-CHANNEL MOSFET, SOT-323 / SC-70"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SI2101A_0_1"
+			(symbol "PJE8405_0_1"
 				(polyline
 					(pts
 						(xy -2.286 1.905) (xy -2.286 -1.905)
@@ -838,7 +847,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.254 0) (xy -1.27 0.381) (xy -1.27 -0.381) (xy -0.254 0)
+						(xy -0.2741 0.0194) (xy -1.2901 -0.3616) (xy -1.2901 0.4004) (xy -0.2741 0.0194)
 					)
 					(stroke
 						(width 0)
@@ -896,7 +905,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.254 -0.508) (xy 0.381 -0.381) (xy 1.143 -0.381) (xy 1.27 -0.254)
+						(xy 0.2287 -0.5126) (xy 0.3557 -0.3856) (xy 1.1177 -0.3856) (xy 1.2447 -0.2586)
 					)
 					(stroke
 						(width 0)
@@ -908,7 +917,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 -0.381) (xy 0.381 0.254) (xy 1.143 0.254) (xy 0.762 -0.381)
+						(xy 0.7367 -0.3856) (xy 0.3557 0.2494) (xy 1.1177 0.2494) (xy 0.7367 -0.3856)
 					)
 					(stroke
 						(width 0)
@@ -919,7 +928,7 @@
 					)
 				)
 			)
-			(symbol "SI2101A_1_1"
+			(symbol "PJE8405_1_1"
 				(pin input line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -1602,6 +1611,77 @@
 		(uuid "954cfd44-644e-4b13-a1bc-154314ea0f56")
 	)
 	(symbol
+		(lib_id "mixlib-discrete-mosfet:PJE8405")
+		(at 91.44 72.39 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c8c2cb6-8f4b-45fb-9a41-e58f8470bf54")
+		(property "Reference" "Q5"
+			(at 91.44 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PJE8405"
+			(at 91.44 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mixlib-generic-sot:SOT-523"
+			(at 86.106 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/PJE8405.pdf"
+			(at 86.868 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "30V 0.5A P-CHANNEL ENHANCEMENT MOSFET, SOT-523"
+			(at 85.344 71.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5e74c71d-11f4-4599-84d5-5388db480d73")
+		)
+		(pin "3"
+			(uuid "42ac1b67-efee-4754-928b-8e2a92d18e1a")
+		)
+		(pin "1"
+			(uuid "0b4e22f4-73c0-484a-ba18-bc197d61eee6")
+		)
+		(instances
+			(project "mixpower-path-mini-bq25672-lv-board-r1"
+				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/48666261-bb79-4da6-aeba-03c91aeede23"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 109.22 72.39 0)
 		(unit 1)
@@ -1806,78 +1886,6 @@
 		)
 	)
 	(symbol
-		(lib_id "mixlib-discrete-mosfet:SI2101A")
-		(at 91.44 72.39 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "461ee9c5-101c-4fc8-b313-1b3d0e1d0fdc")
-		(property "Reference" "Q6"
-			(at 91.44 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SI2101A"
-			(at 91.44 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "mixlib-generic-sot:SOT-323_SC-70"
-			(at 91.44 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mccsemi.com/pdf/products/SI2101A(SOT-323).pdf"
-			(at 91.44 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "20V 2A P-CHANNEL MOSFET, SOT-323 / SC-70"
-			(at 91.44 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9db467c0-0197-4993-9f3f-ac867b01961c")
-		)
-		(pin "3"
-			(uuid "93fea965-cb67-4998-b6a8-08dc0afc3e43")
-		)
-		(pin "2"
-			(uuid "320fb351-8af2-4b7f-8032-cd0ab21b736e")
-		)
-		(instances
-			(project ""
-				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/48666261-bb79-4da6-aeba-03c91aeede23"
-					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 111.76 80.01 0)
 		(unit 1)
@@ -2012,7 +2020,7 @@
 			(uuid "865e02fa-90cf-4ec8-9047-f214845cf3d4")
 		)
 		(instances
-			(project ""
+			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/48666261-bb79-4da6-aeba-03c91aeede23"
 					(reference "U7")
 					(unit 1)

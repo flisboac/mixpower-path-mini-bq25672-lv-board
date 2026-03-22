@@ -2457,7 +2457,7 @@
 			(uuid "5f660c99-f54e-4392-ba6f-18080de4497f")
 		)
 		(instances
-			(project ""
+			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/7979e167-2bba-4fab-b04a-4b73a0d2689b"
 					(reference "J3")
 					(unit 1)
@@ -3337,7 +3337,7 @@
 			(uuid "ba07b289-b0e1-4245-bf54-2a8b895609bb")
 		)
 		(instances
-			(project ""
+			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/7979e167-2bba-4fab-b04a-4b73a0d2689b"
 					(reference "J2")
 					(unit 1)

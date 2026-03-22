@@ -4407,7 +4407,7 @@
 			(uuid "871d8489-8a42-4cda-9f07-bd78f4e46054")
 		)
 		(instances
-			(project ""
+			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/5c2c325f-e10e-46bb-bd14-248e2a150bcb"
 					(reference "J9")
 					(unit 1)

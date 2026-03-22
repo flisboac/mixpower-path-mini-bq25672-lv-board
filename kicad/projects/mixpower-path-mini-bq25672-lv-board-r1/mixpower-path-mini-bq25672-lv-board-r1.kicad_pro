@@ -664,7 +664,7 @@
     "netclass_patterns": [
       {
         "netclass": "Analog",
-        "pattern": "(/.*/)?(~\\{)?(.*_)?(A(N?|NA?|DC?))\\d+\\}?"
+        "pattern": ")?(.*_)?(A(N?|NA?|DC?))\\d+\\"
       },
       {
         "netclass": "Analog_USB",
@@ -700,11 +700,11 @@
       },
       {
         "netclass": "GPIO",
-        "pattern": "(/.*/)?(~\\{)?(.*_)?(GP|P[A-Z]|B(T|TN)?)\\d+\\}?(_TR)?"
+        "pattern": ")?(.*_)?(GP|P[A-Z]|B(T|TN)?)\\d+\\"
       },
       {
         "netclass": "GPIO",
-        "pattern": "(/.*/)?(~\\{)?(.*_)?([nN](S|T))?(CE|INT|IRQ|EN|RST|FLT|FAULT)(_.*)?\\}?(_TR)?"
+        "pattern": ")?(.*_)?([nN](S|T))?(CE|INT|IRQ|EN|RST|FLT|FAULT)(_.*)?\\"
       },
       {
         "netclass": "HighPwrLowVolt_5A_30V",

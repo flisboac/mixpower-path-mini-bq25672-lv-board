@@ -2446,7 +2446,7 @@
 			(uuid "43553b9f-6f8b-4d3c-a194-7f692e6d206c")
 		)
 		(instances
-			(project ""
+			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/0c490263-3bfd-4460-9ca6-8d4376513887"
 					(reference "JP2")
 					(unit 1)

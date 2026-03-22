@@ -2803,7 +2803,7 @@
 	)
 	(rectangle
 		(start 113.03 24.13)
-		(end 166.37 78.74)
+		(end 59.69 78.74)
 		(stroke
 			(width 0)
 			(type dot)
@@ -2953,6 +2953,18 @@
 		(uuid "ae69bf35-e9da-46da-b2c2-4ec5c1f96f57")
 	)
 	(junction
+		(at 53.34 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b63323ce-b4cf-48e6-98f2-ffaa3bdfa5d9")
+	)
+	(junction
+		(at 50.8 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c91d20f1-b334-440d-80f2-7f1ac95f6ea8")
+	)
+	(junction
 		(at 157.48 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3023,14 +3035,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff41d111-5480-445d-9c18-a827968dd5ad")
-	)
-	(no_connect
-		(at 62.23 120.65)
-		(uuid "53616ed2-8873-4e32-8afd-a41ceeaeb7f2")
-	)
-	(no_connect
-		(at 62.23 118.11)
-		(uuid "c2bb8b32-1363-40d3-ba29-a3393d1a1868")
 	)
 	(wire
 		(pts
@@ -3214,7 +3218,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 113.03) (xy 53.34 90.17)
+			(xy 53.34 90.17) (xy 53.34 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3334,16 +3338,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 115.57) (xy 50.8 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e240349-b649-4905-8ae4-6a79933cba6d")
-	)
-	(wire
-		(pts
 			(xy 92.71 125.73) (xy 87.63 125.73)
 		)
 		(stroke
@@ -3351,6 +3345,16 @@
 			(type default)
 		)
 		(uuid "61a8d087-d5d5-4609-9742-5f983ef5369b")
+	)
+	(wire
+		(pts
+			(xy 53.34 115.57) (xy 53.34 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "647b3bfa-fd59-4391-a1c4-d6e47df5c16c")
 	)
 	(wire
 		(pts
@@ -3484,6 +3488,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 113.03) (xy 62.23 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87fcba07-4637-4708-8c7a-c6a317038ec8")
+	)
+	(wire
+		(pts
 			(xy 124.46 38.1) (xy 163.83 38.1)
 		)
 		(stroke
@@ -3514,7 +3528,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 115.57) (xy 50.8 85.09)
+			(xy 50.8 85.09) (xy 50.8 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3644,13 +3658,13 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 113.03) (xy 53.34 113.03)
+			(xy 50.8 113.03) (xy 50.8 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b36f17d8-e413-4f2e-ac86-79a5c939769c")
+		(uuid "ac0bad7e-611f-44fa-bdb0-da804028e505")
 	)
 	(wire
 		(pts
@@ -3761,6 +3775,16 @@
 			(type default)
 		)
 		(uuid "c7d05c23-8bd6-406b-badd-16c6c8a38d30")
+	)
+	(wire
+		(pts
+			(xy 53.34 115.57) (xy 62.23 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8593edf-677d-43fe-8e39-f4d8ae13b636")
 	)
 	(wire
 		(pts
@@ -3945,6 +3969,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 120.65) (xy 53.34 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1183441-40d3-42b8-8462-9c21381a521b")
+	)
+	(wire
+		(pts
 			(xy 107.95 87.63) (xy 168.91 87.63)
 		)
 		(stroke
@@ -3982,6 +4016,16 @@
 			(type default)
 		)
 		(uuid "f5b8155c-880f-4850-a752-cf8d898600d4")
+	)
+	(wire
+		(pts
+			(xy 62.23 118.11) (xy 50.8 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8f97c26-3432-4b04-8cf4-91c917e27056")
 	)
 	(wire
 		(pts
@@ -4023,7 +4067,7 @@
 		)
 		(uuid "fe0870cc-754c-4450-93a6-5ce09e848478")
 	)
-	(label "USBC_D-"
+	(label "USBC_D+"
 		(at 63.5 87.63 0)
 		(effects
 			(font
@@ -4093,7 +4137,7 @@
 		)
 		(uuid "676c07cb-d616-400d-8f54-fcb2bd994462")
 	)
-	(label "USBC_D+"
+	(label "USBC_D-"
 		(at 63.5 82.55 0)
 		(effects
 			(font
@@ -4282,7 +4326,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 157.48 72.39 0)
 			(effects
 				(font
@@ -4991,7 +5035,7 @@
 			(uuid "1a86bd54-7df5-4e4d-9beb-d2a2d25a88f9")
 		)
 		(instances
-			(project ""
+			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/a96c4826-4f7b-4932-9621-9f42d0f49b09"
 					(reference "U2")
 					(unit 1)
@@ -5066,7 +5110,7 @@
 			(uuid "e6b52dc5-c268-4a02-9b95-40246dcaca77")
 		)
 		(instances
-			(project ""
+			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/a96c4826-4f7b-4932-9621-9f42d0f49b09"
 					(reference "FB1")
 					(unit 1)
@@ -5184,7 +5228,7 @@
 			(uuid "ed6d64d7-99fb-4fdb-93f4-85d3d63239a5")
 		)
 		(instances
-			(project ""
+			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/a96c4826-4f7b-4932-9621-9f42d0f49b09"
 					(reference "Q1")
 					(unit 1)
@@ -5414,7 +5458,7 @@
 			(uuid "ed6d64d7-99fb-4fdb-93f4-85d3d63239a6")
 		)
 		(instances
-			(project ""
+			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/a96c4826-4f7b-4932-9621-9f42d0f49b09"
 					(reference "Q1")
 					(unit 2)
@@ -5552,6 +5596,82 @@
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/a96c4826-4f7b-4932-9621-9f42d0f49b09"
 					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Reference_Voltage:TL431DBZ")
+		(at 137.16 54.61 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a1f1b95-b96b-46bd-8728-8e992455c82f")
+		(property "Reference" "U1"
+			(at 134.62 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TL431DBZ"
+			(at 134.62 55.8799 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 132.334 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl431.pdf"
+			(at 128.016 52.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Shunt Regulator, SOT-23"
+			(at 130.048 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "111b2258-c2bf-4859-b68e-388ce2a95f6f")
+		)
+		(pin "2"
+			(uuid "5433d0f3-99d7-433a-8d1a-1e3ca094de9a")
+		)
+		(pin "3"
+			(uuid "8e6613f6-1787-483a-ba5b-cc45d211e153")
+		)
+		(instances
+			(project "mixpower-path-mini-bq25672-lv-board-r1"
+				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/a96c4826-4f7b-4932-9621-9f42d0f49b09"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -5751,7 +5871,7 @@
 			(uuid "8011a8e4-6a42-4a81-b8c2-dd4e90deabf7")
 		)
 		(instances
-			(project ""
+			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/a96c4826-4f7b-4932-9621-9f42d0f49b09"
 					(reference "TP1")
 					(unit 1)
@@ -6203,7 +6323,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 124.46 55.88 0)
 			(effects
 				(font
@@ -6584,81 +6704,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Reference_Voltage:TL431DBZ")
-		(at 137.16 54.61 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "927d0004-a4f7-4e79-ac78-bcf06af0097b")
-		(property "Reference" "U1"
-			(at 135.89 54.6099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TL431DBZ"
-			(at 135.89 57.1499 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 132.334 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl431.pdf"
-			(at 128.016 52.832 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Shunt Regulator, SOT-23"
-			(at 130.048 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5a2cf39c-cc29-4a77-b271-03547a366b44")
-		)
-		(pin "2"
-			(uuid "5d58fc08-5aa5-49c7-b0d6-f47f5851cade")
-		)
-		(pin "3"
-			(uuid "8f4c6dc5-200e-4f7d-8ab2-91d640beed82")
-		)
-		(instances
-			(project ""
-				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/a96c4826-4f7b-4932-9621-9f42d0f49b09"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 30.48 130.81 0)
 		(unit 1)
@@ -6717,7 +6762,7 @@
 			(uuid "45fef58f-9c31-4fe8-9571-c3f943ac94a0")
 		)
 		(instances
-			(project ""
+			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/a96c4826-4f7b-4932-9621-9f42d0f49b09"
 					(reference "#FLG02")
 					(unit 1)
@@ -6784,7 +6829,7 @@
 			(uuid "dcd5c7d5-01a0-4457-a96c-58b36dabb2d3")
 		)
 		(instances
-			(project ""
+			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/a96c4826-4f7b-4932-9621-9f42d0f49b09"
 					(reference "TP4")
 					(unit 1)
@@ -7064,7 +7109,7 @@
 			(uuid "2893565a-10f3-4f78-97a4-a92a4b441986")
 		)
 		(instances
-			(project ""
+			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/a96c4826-4f7b-4932-9621-9f42d0f49b09"
 					(reference "C6")
 					(unit 1)

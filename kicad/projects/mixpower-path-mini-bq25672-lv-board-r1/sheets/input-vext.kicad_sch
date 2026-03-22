@@ -1736,7 +1736,6 @@
 	(symbol
 		(lib_id "Device:R_Small")
 		(at 113.03 63.5 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1744,7 +1743,7 @@
 		(dnp no)
 		(uuid "05c66f36-996a-4eaf-b28a-9f97ba521394")
 		(property "Reference" "R29"
-			(at 110.49 62.2299 0)
+			(at 115.57 62.2299 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -1753,7 +1752,7 @@
 			)
 		)
 		(property "Value" "2"
-			(at 110.49 64.7699 0)
+			(at 115.57 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1999,7 +1998,7 @@
 			(uuid "db50faa7-1be6-4a3c-bdd8-c4fb49e98fdd")
 		)
 		(instances
-			(project ""
+			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/050b3b40-3e43-4f8a-9f9d-8e85b6cb1fd2"
 					(reference "J4")
 					(unit 1)
@@ -2137,7 +2136,7 @@
 			(uuid "6ee7f4a9-14b7-4903-9243-bd3c6a82db7a")
 		)
 		(instances
-			(project ""
+			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/050b3b40-3e43-4f8a-9f9d-8e85b6cb1fd2"
 					(reference "D5")
 					(unit 1)
@@ -2213,7 +2212,7 @@
 			(uuid "cf0b242b-552e-4474-a277-8db94c821702")
 		)
 		(instances
-			(project ""
+			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/050b3b40-3e43-4f8a-9f9d-8e85b6cb1fd2"
 					(reference "D6")
 					(unit 1)
@@ -2503,7 +2502,7 @@
 			(uuid "8c67f17e-d54d-4bcb-a203-9abaad1da0e6")
 		)
 		(instances
-			(project ""
+			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/050b3b40-3e43-4f8a-9f9d-8e85b6cb1fd2"
 					(reference "Q8")
 					(unit 1)

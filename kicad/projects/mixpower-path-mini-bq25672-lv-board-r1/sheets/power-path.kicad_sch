@@ -2270,12 +2270,6 @@
 		(uuid "849eb7f2-548e-4b05-847e-10d6501c19ab")
 	)
 	(junction
-		(at 92.71 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "884ecddf-7c5c-4bad-8ef8-bd6da0a5e1c9")
-	)
-	(junction
 		(at 52.07 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3082,16 +3076,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 107.95) (xy 102.87 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "761cf591-20ff-4ee1-96f4-44cbffe9a58e")
-	)
-	(wire
-		(pts
 			(xy 87.63 41.91) (xy 87.63 72.39)
 		)
 		(stroke
@@ -3172,16 +3156,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 105.41) (xy 92.71 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82463c26-2056-4cf4-8eb6-64ee203d3ddb")
-	)
-	(wire
-		(pts
 			(xy 52.07 60.96) (xy 52.07 57.15)
 		)
 		(stroke
@@ -3219,16 +3193,6 @@
 			(type default)
 		)
 		(uuid "88518c9d-8bf3-42f6-906f-842255ab359e")
-	)
-	(wire
-		(pts
-			(xy 85.09 99.06) (xy 92.71 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a574556-1990-4d70-aa1e-31bd9aada009")
 	)
 	(wire
 		(pts
@@ -3842,16 +3806,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 99.06) (xy 92.71 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efc945c8-26bc-444f-8126-876f9ba7f89d")
-	)
-	(wire
-		(pts
 			(xy 121.92 54.61) (xy 123.19 54.61)
 		)
 		(stroke
@@ -3872,7 +3826,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 99.06) (xy 93.98 99.06)
+			(xy 85.09 99.06) (xy 93.98 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3999,16 +3953,6 @@
 			(justify right bottom)
 		)
 		(uuid "32fde792-df70-437d-959e-f54f2756a6c1")
-	)
-	(label "VCC"
-		(at 102.87 107.95 180)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right bottom)
-		)
-		(uuid "466babb8-30e8-406f-b95b-34fd1b3ba1e4")
 	)
 	(label "TS"
 		(at 138.43 130.81 180)
@@ -5539,7 +5483,7 @@
 			(uuid "c49fd691-4468-4c2c-aabf-5fbf421a6468")
 		)
 		(instances
-			(project ""
+			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
 					(reference "Q2")
 					(unit 1)
@@ -6160,76 +6104,6 @@
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
 					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 92.71 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "4b2235af-9056-48ee-a897-e9b5ffd7a158")
-		(property "Reference" "R53"
-			(at 95.25 101.5999 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 95.25 104.1399 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 92.71 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 92.71 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c781d02c-5e12-42d4-84a9-68a71546a5d2")
-		)
-		(pin "1"
-			(uuid "290ceefb-3c45-4c6d-8868-c362e72b32ac")
-		)
-		(instances
-			(project "mixpower-path-mini-bq25672-lv-board-r1"
-				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -8094,7 +7968,7 @@
 			(uuid "d8cc2b1d-d819-4df3-8dfe-090b24ad3714")
 		)
 		(instances
-			(project ""
+			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
 					(reference "U3")
 					(unit 1)
@@ -8502,7 +8376,7 @@
 			(uuid "d07e606d-8de6-46ec-a818-2bdf3b2892f5")
 		)
 		(instances
-			(project ""
+			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
 					(reference "L1")
 					(unit 1)
