@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "c9f01579-321c-4143-818f-79f4ab594589")
 	(paper "A4")
 	(lib_symbols
@@ -16,8 +16,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "TP"
 				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -26,6 +30,8 @@
 			)
 			(property "Value" "TestPoint_Small"
 				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -34,47 +40,57 @@
 			)
 			(property "Footprint" ""
 				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "test point"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "test point tp"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Pin* Test*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "TestPoint_Small_0_1"
@@ -123,8 +139,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -134,6 +154,8 @@
 			)
 			(property "Value" "C_Small"
 				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -143,47 +165,57 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "capacitor cap"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "C_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "C_Small_0_1"
@@ -216,7 +248,7 @@
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -234,7 +266,7 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 2.032)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -263,8 +295,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.016 1.016)
@@ -273,6 +309,8 @@
 			)
 			(property "Value" "R_Small"
 				(at 1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -281,47 +319,57 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Resistor, small symbol"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "R resistor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "R_Small_0_1"
@@ -341,7 +389,7 @@
 				(pin passive line
 					(at 0 2.54 270)
 					(length 0.762)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -359,7 +407,7 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 0.762)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -377,6 +425,268 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:SolderJumper_3_Open"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at -2.54 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_3_Open"
+				(at 0 2.794 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Solder Jumper, 3-pole, open"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property private "KLC_S5.1" "This is a generic symbol, it has fp-filter, but no default footprint"
+				(at 0 -17.78 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property private "KLC_S3.3" "Graphical-Symbol: thickness is 6mm, fill is background"
+				(at 0 -20.32 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Solder Jumper SPDT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SolderJumper_3_Open_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.016) (xy -1.016 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.016 -1.016)
+					(mid -2.0276 0)
+					(end -1.016 1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.508 1.016)
+					(end 0.508 -1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 1.016)
+					(mid 2.0276 0)
+					(end 1.016 -1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_3_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "mixlib-electromechanic-switch:TS-A002"
 			(pin_names
 				(hide yes)
@@ -384,8 +694,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "SW"
 				(at -0.762 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -394,6 +708,8 @@
 			)
 			(property "Value" "TS-A002"
 				(at 0 4.826 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -402,29 +718,35 @@
 			)
 			(property "Footprint" "mixlib-electromechanic-switch:TS-A002"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://www.hq-dz.com/uploadfile/2024/0305/20240305025619371.pdf"
 				(at 0.508 -5.334 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "12V 50mA 0.1Ohm MINIATURE SMD SPST BUTTON"
 				(at -0.508 -6.096 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "TS-A002_0_1"
@@ -522,8 +844,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 0 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -532,6 +858,8 @@
 			)
 			(property "Value" "RT9829GQW"
 				(at 0.254 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -540,49 +868,59 @@
 			)
 			(property "Footprint" "mixlib-pmic-supervisor:Specific_DFN8_RT9829_RIT"
 				(at 1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(italic yes)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://www.richtek.com/assets/product_file/RT9829/DS9829-00.pdf"
 				(at 1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(italic yes)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Dual Push-Button Reset with Push-Button Controlled Output Delay"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "RT9829GQW"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Specific_DFN8_RT9829_RIT Specific_DFN8_RT9829_RIT-*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "RT9829GQW_1_1"
@@ -597,35 +935,17 @@
 						(type background)
 					)
 				)
-				(pin power_in line
-					(at -8.89 6.35 0)
+				(pin output line
+					(at 8.89 1.27 180)
 					(length 2.54)
-					(name "VCC"
+					(name "RST2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -8.89 3.81 0)
-					(length 2.54)
-					(name "DSR"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -644,24 +964,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -8.89 -3.81 0)
-					(length 2.54)
-					(name "~{SR0}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -705,17 +1007,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 8.89 1.27 180)
+				(pin input line
+					(at -8.89 3.81 0)
 					(length 2.54)
-					(name "RST2"
+					(name "DSR"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -741,11 +1043,47 @@
 						)
 					)
 				)
+				(pin input line
+					(at -8.89 -3.81 0)
+					(length 2.54)
+					(name "~{SR0}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -8.89 6.35 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
 		(symbol "power:GND"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -756,17 +1094,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "GND"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -775,38 +1119,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "GND_0_1"
@@ -827,7 +1179,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -857,7 +1209,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 0cda7a7b-879f-4066-b433-996931cd564c)
+		(uuid "0cda7a7b-879f-4066-b433-996931cd564c")
 	)
 	(rectangle
 		(start 67.31 16.51)
@@ -870,7 +1222,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 0da0ab79-b1fa-489c-8ebd-460b4e284e18)
+		(uuid "0da0ab79-b1fa-489c-8ebd-460b4e284e18")
 	)
 	(rectangle
 		(start 68.58 64.77)
@@ -883,7 +1235,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 9d4d47d3-6d98-442c-8b7d-ff35de3500ef)
+		(uuid "9d4d47d3-6d98-442c-8b7d-ff35de3500ef")
 	)
 	(text "* Usage of this IC is optional, but recommended,\n  as it allows for setting up the board for programming\n  with a single button (i.e., the RESET button).\n* When RESET button is pressed for at least 7.5s,\n  BOOT line will be forced high, and will enable SoC\n  boot from system memory once ~{RST} is deasserted.\n* The capacitor and resistor on BOOT line are just\n  assurances in case anything goes wrong, or if the\n  IC is deemed unnecessary."
 		(exclude_from_sim no)
@@ -923,7 +1275,7 @@
 		(uuid "c2239b9b-deac-4e60-993b-793d3a6cd626")
 	)
 	(junction
-		(at 78.74 87.63)
+		(at 77.47 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "07a14496-0945-49b3-9a5b-079352d68e32")
@@ -950,7 +1302,19 @@
 		(at 76.2 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2ea3b0bd-55b5-4366-954a-50f3f0c16082")
+		(uuid "290ad0cc-a95f-4067-9eef-a765763a5947")
+	)
+	(junction
+		(at 77.47 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fc68d57-7727-4f05-a9fb-ca1788cfe6d3")
+	)
+	(junction
+		(at 76.2 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4dc76547-4247-4b75-b79c-a148d407131d")
 	)
 	(junction
 		(at 95.25 80.01)
@@ -959,7 +1323,7 @@
 		(uuid "60a24735-90c1-48d1-addc-d2c6a4998f36")
 	)
 	(junction
-		(at 78.74 46.99)
+		(at 77.47 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6316975d-a5a6-4754-8890-79b3a44603fb")
@@ -971,34 +1335,22 @@
 		(uuid "6555a800-03ec-4d65-af81-f9cbc37a0988")
 	)
 	(junction
-		(at 76.2 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6c297925-a55c-459b-a42d-f72b35fcc27d")
-	)
-	(junction
-		(at 146.05 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "71e5bfbe-eae2-4bb4-acb0-97f99a9ba44f")
-	)
-	(junction
-		(at 76.2 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f51b904-715c-4263-8332-1dbfa2124a4b")
-	)
-	(junction
 		(at 86.36 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a31d6b39-5c05-44d0-ac77-4bfd08dd685b")
 	)
 	(junction
-		(at 76.2 74.93)
+		(at 77.47 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c79fb89b-b2d9-4353-9d53-edef0338dc01")
+		(uuid "a618c6a8-9eb1-4650-b1f9-b88ed86cf23f")
+	)
+	(junction
+		(at 138.43 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae01fd92-1022-4d3c-834a-9ba684da8f1c")
 	)
 	(junction
 		(at 95.25 39.37)
@@ -1026,33 +1378,13 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 34.29) (xy 76.2 38.1)
+			(xy 77.47 34.29) (xy 77.47 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "009c22af-f102-4f8d-92aa-66f2a8583d2a")
-	)
-	(wire
-		(pts
-			(xy 76.2 43.18) (xy 76.2 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0789cf0d-ac59-4aac-93ae-f80ebfd59f75")
-	)
-	(wire
-		(pts
-			(xy 137.16 80.01) (xy 146.05 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09fd536f-109b-4570-9470-a72eddf15f39")
 	)
 	(wire
 		(pts
@@ -1106,16 +1438,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 34.29) (xy 86.36 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "197a0c08-fbc8-4147-a122-a2c7d7bb08b1")
-	)
-	(wire
-		(pts
 			(xy 96.52 77.47) (xy 95.25 77.47)
 		)
 		(stroke
@@ -1126,7 +1448,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 87.63) (xy 78.74 90.17)
+			(xy 77.47 87.63) (xy 77.47 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1146,13 +1468,23 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 74.93) (xy 76.2 78.74)
+			(xy 77.47 74.93) (xy 77.47 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "200c09d7-9f53-443e-a669-4fbf672e9d8f")
+	)
+	(wire
+		(pts
+			(xy 125.73 69.85) (xy 125.73 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22ea9468-12ce-4ea4-9542-7447ce61e251")
 	)
 	(wire
 		(pts
@@ -1176,6 +1508,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 74.93) (xy 156.21 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b05133c-1cb2-4211-a6a0-6811183eb5d9")
+	)
+	(wire
+		(pts
 			(xy 86.36 74.93) (xy 86.36 76.2)
 		)
 		(stroke
@@ -1183,6 +1525,16 @@
 			(type default)
 		)
 		(uuid "2eb3072f-c0e3-4a27-97c8-0db34055c1e4")
+	)
+	(wire
+		(pts
+			(xy 77.47 74.93) (xy 86.36 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3360afbf-808a-4d76-95ed-018b1790fa04")
 	)
 	(wire
 		(pts
@@ -1226,16 +1578,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 74.93) (xy 86.36 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c1d2043-5dd8-46ad-bb52-625d47f56e28")
-	)
-	(wire
-		(pts
 			(xy 95.25 85.09) (xy 95.25 100.33)
 		)
 		(stroke
@@ -1256,13 +1598,23 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 74.93) (xy 123.19 74.93)
+			(xy 114.3 74.93) (xy 125.73 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "62318e0a-a2c9-4d61-a8c4-be95667cfb32")
+	)
+	(wire
+		(pts
+			(xy 77.47 86.36) (xy 76.2 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63d1db52-9c0a-4a86-a85b-2ec818007fd3")
 	)
 	(polyline
 		(pts
@@ -1277,7 +1629,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 46.99) (xy 78.74 49.53)
+			(xy 77.47 46.99) (xy 77.47 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1287,7 +1639,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 34.29) (xy 76.2 34.29)
+			(xy 66.04 34.29) (xy 77.47 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1307,7 +1659,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 74.93) (xy 76.2 74.93)
+			(xy 69.85 74.93) (xy 77.47 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1317,13 +1669,33 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 87.63) (xy 91.44 87.63)
+			(xy 77.47 87.63) (xy 91.44 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6ec30f5a-dcda-48cf-b129-309c9030fd09")
+	)
+	(wire
+		(pts
+			(xy 77.47 43.18) (xy 77.47 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7021b7d4-6fcb-4f9e-ac74-f15ac15ff8f2")
+	)
+	(wire
+		(pts
+			(xy 76.2 46.99) (xy 77.47 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ba6572c-1a46-45ad-b6e9-2f722787b656")
 	)
 	(wire
 		(pts
@@ -1397,6 +1769,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 80.01) (xy 156.21 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f5f21d6-af27-40b5-800a-cb6cd68e4440")
+	)
+	(wire
+		(pts
 			(xy 114.3 80.01) (xy 116.84 80.01)
 		)
 		(stroke
@@ -1407,7 +1789,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 80.01) (xy 156.21 80.01)
+			(xy 137.16 80.01) (xy 138.43 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1427,6 +1809,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 69.85) (xy 138.43 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b02df1f3-5acc-47c8-83ba-8d663248a56b")
+	)
+	(wire
+		(pts
 			(xy 91.44 97.79) (xy 91.44 100.33)
 		)
 		(stroke
@@ -1437,13 +1829,23 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 46.99) (xy 91.44 46.99)
+			(xy 77.47 46.99) (xy 91.44 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b3a2803a-31cf-4727-9de3-6b0b785def5e")
+	)
+	(wire
+		(pts
+			(xy 77.47 83.82) (xy 77.47 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9fdc1ac-ada9-4936-b289-14652db465a9")
 	)
 	(wire
 		(pts
@@ -1467,33 +1869,23 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 83.82) (xy 76.2 87.63)
+			(xy 77.47 34.29) (xy 86.36 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ca3bc71e-c528-4078-9b0b-5c4dacdffb4d")
+		(uuid "d3dcd15a-8d16-407c-990d-cf738685504f")
 	)
 	(wire
 		(pts
-			(xy 146.05 80.01) (xy 146.05 81.28)
+			(xy 77.47 45.72) (xy 76.2 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d14142f1-0b1d-4fa6-a735-596fbd0a03da")
-	)
-	(wire
-		(pts
-			(xy 78.74 46.99) (xy 76.2 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8a03a84-33fc-4e0b-8ede-f878a7ef9de0")
+		(uuid "da281dc9-52e9-4aa2-bc1f-730083e46e58")
 	)
 	(wire
 		(pts
@@ -1527,13 +1919,13 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 87.63) (xy 76.2 87.63)
+			(xy 76.2 87.63) (xy 77.47 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fbb4f538-9847-432e-8d7b-83881e19cad4")
+		(uuid "ff07ba78-ac66-48f3-aab2-cbeb090eda4f")
 	)
 	(wire
 		(pts
@@ -9292,7 +9684,17 @@
 		)
 		(uuid "024e7abd-66de-4ea6-9ee3-15ac436c2614")
 	)
-	(label "VCC"
+	(label "SRST_BOOT_RST2"
+		(at 114.3 80.01 0)
+		(effects
+			(font
+				(size 0.127 0.127)
+			)
+			(justify left bottom)
+		)
+		(uuid "228f8bb8-8bf7-4386-affb-23c6edf389b9")
+	)
+	(label "VPULLUP"
 		(at 152.4 92.71 180)
 		(effects
 			(font
@@ -9322,7 +9724,7 @@
 		)
 		(uuid "8d80d649-73a6-4dfc-924a-0335e7778c65")
 	)
-	(label "VCC"
+	(label "VPULLUP"
 		(at 69.85 74.93 0)
 		(effects
 			(font
@@ -9343,17 +9745,6 @@
 		)
 		(uuid "05e6e4ca-3330-4208-9755-84653bb40b45")
 	)
-	(hierarchical_label "VCC"
-		(shape input)
-		(at 66.04 74.93 180)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "6eded803-7341-49e7-8fb9-5e1559eae745")
-	)
 	(hierarchical_label "BOOT"
 		(shape output)
 		(at 156.21 80.01 0)
@@ -9364,6 +9755,17 @@
 			(justify left)
 		)
 		(uuid "7af2c3c3-83a3-462b-b33c-3c9cc26c87f3")
+	)
+	(hierarchical_label "USER_BOOT"
+		(shape output)
+		(at 156.21 74.93 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "a1703665-558c-4589-b948-07c4e381f4da")
 	)
 	(hierarchical_label "~{BTN}"
 		(shape output)
@@ -9376,7 +9778,7 @@
 		)
 		(uuid "bffe95f7-e767-401e-b3c5-e499fc00ca0b")
 	)
-	(hierarchical_label "VCC"
+	(hierarchical_label "VPULLUP"
 		(shape input)
 		(at 66.04 34.29 180)
 		(effects
@@ -9391,55 +9793,67 @@
 		(lib_id "power:GND")
 		(at 95.25 59.69 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "069cbca4-7827-4d76-b3c5-de867e80abe5")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR063"
 			(at 95.25 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 95.25 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 95.25 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 95.25 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 95.25 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9448,7 +9862,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/02edf1bd-e23a-4a4a-8860-4d5790274652"
-					(reference "#PWR077")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -9456,16 +9870,20 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 76.2 81.28 0)
+		(at 77.47 81.28 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b309997-2d1c-487b-9e59-bad70bd6d3ed")
-		(property "Reference" "R48"
-			(at 78.74 80.0099 0)
+		(property "Reference" "R59"
+			(at 80.01 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -9474,7 +9892,9 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 78.74 82.5499 0)
+			(at 80.01 82.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9483,30 +9903,36 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 76.2 81.28 0)
+			(at 77.47 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 76.2 81.28 0)
+		(property "Datasheet" ""
+			(at 77.47 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 76.2 81.28 0)
+			(at 77.47 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9518,7 +9944,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/02edf1bd-e23a-4a4a-8860-4d5790274652"
-					(reference "R48")
+					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -9528,55 +9954,67 @@
 		(lib_id "power:GND")
 		(at 95.25 100.33 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ca2cd86-c393-4d07-be68-09cecb2b91a5")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR064"
 			(at 95.25 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 95.25 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 95.25 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 95.25 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 95.25 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9585,7 +10023,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/02edf1bd-e23a-4a4a-8860-4d5790274652"
-					(reference "#PWR089")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -9593,16 +10031,20 @@
 	)
 	(symbol
 		(lib_id "mixlib-electromechanic-switch:TS-A002")
-		(at 78.74 95.25 270)
+		(at 77.47 95.25 270)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ca8be93-72fb-4ece-b1a8-3d6d46f03a36")
-		(property "Reference" "SW3"
-			(at 77.47 93.9799 90)
+		(property "Reference" "SW2"
+			(at 76.2 93.9799 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9611,43 +10053,53 @@
 			)
 		)
 		(property "Value" "TS-A002"
-			(at 77.47 96.5199 90)
+			(at 76.2 96.5199 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify right)
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
-			(at 78.74 95.25 0)
+			(at 77.47 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.hq-dz.com/uploadfile/2024/0305/20240305025619371.pdf"
-			(at 73.406 94.742 0)
+			(at 72.136 94.742 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "12V 50mA 0.1Ohm MINIATURE SMD SPST BUTTON"
-			(at 72.644 95.758 0)
+			(at 71.374 95.758 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Role" "RESET"
-			(at 76.2 99.06 90)
+			(at 74.93 99.06 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -9664,7 +10116,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/02edf1bd-e23a-4a4a-8860-4d5790274652"
-					(reference "SW3")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -9674,13 +10126,17 @@
 		(lib_id "mixlib-electromechanic-switch:TS-A002")
 		(at 125.73 86.36 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "41c9bfa1-2f36-42c8-b305-7faa0a19a877")
-		(property "Reference" "SW2"
+		(property "Reference" "SW3"
 			(at 127 83.8199 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9690,6 +10146,8 @@
 		)
 		(property "Value" "TS-A002"
 			(at 127 86.3599 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -9699,33 +10157,41 @@
 		)
 		(property "Footprint" "mixlib-electromechanic-switch:TS-A002"
 			(at 125.73 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.hq-dz.com/uploadfile/2024/0305/20240305025619371.pdf"
 			(at 131.064 85.852 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "12V 50mA 0.1Ohm MINIATURE SMD SPST BUTTON"
 			(at 131.826 86.868 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Role" "BOOT"
 			(at 127 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -9742,7 +10208,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/02edf1bd-e23a-4a4a-8860-4d5790274652"
-					(reference "SW2")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -9750,57 +10216,69 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 78.74 59.69 0)
+		(at 77.47 59.69 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "464820e7-1642-4919-b2e5-cc0a1d94838a")
-		(property "Reference" "#PWR075"
-			(at 78.74 66.04 0)
+		(property "Reference" "#PWR057"
+			(at 77.47 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 64.77 0)
+			(at 77.47 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 59.69 0)
+			(at 77.47 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 59.69 0)
+			(at 77.47 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 59.69 0)
+			(at 77.47 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9809,7 +10287,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/02edf1bd-e23a-4a4a-8860-4d5790274652"
-					(reference "#PWR075")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -9817,57 +10295,69 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 78.74 100.33 0)
+		(at 77.47 100.33 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bf01136-9d68-4995-a072-a46d73b2e801")
-		(property "Reference" "#PWR087"
-			(at 78.74 106.68 0)
+		(property "Reference" "#PWR058"
+			(at 77.47 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 105.41 0)
+			(at 77.47 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 100.33 0)
+			(at 77.47 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 100.33 0)
+			(at 77.47 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 100.33 0)
+			(at 77.47 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9876,7 +10366,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/02edf1bd-e23a-4a4a-8860-4d5790274652"
-					(reference "#PWR087")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -9887,13 +10377,17 @@
 		(at 91.44 95.25 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ddbac90-3680-41ec-a1e9-5995cc32204f")
-		(property "Reference" "C54"
+		(property "Reference" "C46"
 			(at 88.9 93.9862 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9903,6 +10397,8 @@
 		)
 		(property "Value" "100n"
 			(at 88.9 96.5262 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9912,29 +10408,35 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 91.44 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 91.44 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 91.44 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9946,7 +10448,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/02edf1bd-e23a-4a4a-8860-4d5790274652"
-					(reference "C54")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -9956,55 +10458,67 @@
 		(lib_id "power:GND")
 		(at 86.36 81.28 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59617f8f-c579-489d-b250-88105c3f837f")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR060"
 			(at 86.36 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 86.36 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 86.36 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 86.36 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 86.36 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10013,7 +10527,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/02edf1bd-e23a-4a4a-8860-4d5790274652"
-					(reference "#PWR081")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -10023,13 +10537,17 @@
 		(lib_id "Device:C_Small")
 		(at 137.16 83.82 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp yes)
 		(uuid "59c131bf-5a0d-4399-91a4-a30524db7db9")
-		(property "Reference" "C50"
+		(property "Reference" "C47"
 			(at 139.7 82.5562 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10039,6 +10557,8 @@
 		)
 		(property "Value" "10u"
 			(at 139.7 85.0962 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10048,29 +10568,35 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 137.16 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 137.16 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 137.16 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10082,7 +10608,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/02edf1bd-e23a-4a4a-8860-4d5790274652"
-					(reference "C50")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -10093,13 +10619,17 @@
 		(at 91.44 54.61 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "5f67b79a-98d1-4130-8fcb-3ed2b373c923")
-		(property "Reference" "C48"
+		(property "Reference" "C45"
 			(at 88.9 53.3462 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10109,6 +10639,8 @@
 		)
 		(property "Value" "100n"
 			(at 88.9 55.8862 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10118,29 +10650,35 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 91.44 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 91.44 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 91.44 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10152,7 +10690,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/02edf1bd-e23a-4a4a-8860-4d5790274652"
-					(reference "C48")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -10162,55 +10700,67 @@
 		(lib_id "power:GND")
 		(at 137.16 86.36 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65a57602-ab36-4873-be5c-bf229c8c8afd")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR065"
 			(at 137.16 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 137.16 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 137.16 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 137.16 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 137.16 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10219,141 +10769,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/02edf1bd-e23a-4a4a-8860-4d5790274652"
-					(reference "#PWR082")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 146.05 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7243c701-4f25-4024-91f0-2c3d403d4f19")
-		(property "Reference" "#PWR083"
-			(at 146.05 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 146.05 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4a90ab03-cc02-40b4-b847-34081a62b67c")
-		)
-		(instances
-			(project "mixpower-path-mini-bq25672-lv-board-r1"
-				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/02edf1bd-e23a-4a4a-8860-4d5790274652"
-					(reference "#PWR083")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 123.19 74.93 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "74fa071c-b0df-4a76-a111-36b514180edf")
-		(property "Reference" "TP3"
-			(at 123.19 72.3901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SOC_RST_PP"
-			(at 123.19 69.8501 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 128.27 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 123.19 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b9cf43fb-ee29-45e5-bc50-1194c26fc637")
-		)
-		(instances
-			(project "mixpower-path-mini-bq25672-lv-board-r1"
-				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/02edf1bd-e23a-4a4a-8860-4d5790274652"
-					(reference "TP3")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -10363,13 +10779,17 @@
 		(lib_id "Device:C_Small")
 		(at 86.36 78.74 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a79c200-dc9a-4c7d-b483-efd97ccd2768")
-		(property "Reference" "C49"
+		(property "Reference" "C44"
 			(at 88.9 77.4762 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10379,6 +10799,8 @@
 		)
 		(property "Value" "100n"
 			(at 88.9 80.0162 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10388,29 +10810,35 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 86.36 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 86.36 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 86.36 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10422,7 +10850,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/02edf1bd-e23a-4a4a-8860-4d5790274652"
-					(reference "C49")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -10432,13 +10860,17 @@
 		(lib_id "Device:C_Small")
 		(at 86.36 38.1 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "969aade7-b5e0-4add-8193-63106f8e51ae")
-		(property "Reference" "C44"
+		(property "Reference" "C43"
 			(at 88.9 36.8362 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10448,6 +10880,8 @@
 		)
 		(property "Value" "100n"
 			(at 88.9 39.3762 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10457,29 +10891,35 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 86.36 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 86.36 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 86.36 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10491,7 +10931,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/02edf1bd-e23a-4a4a-8860-4d5790274652"
-					(reference "C44")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -10502,13 +10942,17 @@
 		(at 119.38 80.01 90)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "97675263-b32e-41b5-848d-b1c24e71ef5f")
-		(property "Reference" "R53"
+		(property "Reference" "R60"
 			(at 119.38 82.55 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -10517,6 +10961,8 @@
 		)
 		(property "Value" "1k"
 			(at 119.38 85.09 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10525,29 +10971,35 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 119.38 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 119.38 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 119.38 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10559,7 +11011,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/02edf1bd-e23a-4a4a-8860-4d5790274652"
-					(reference "R53")
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -10569,55 +11021,67 @@
 		(lib_id "power:GND")
 		(at 91.44 100.33 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0d9a1a1-04f0-4faa-9776-af705df3a628")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR062"
 			(at 91.44 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 91.44 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 91.44 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 91.44 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 91.44 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10626,7 +11090,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/02edf1bd-e23a-4a4a-8860-4d5790274652"
-					(reference "#PWR088")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -10636,55 +11100,67 @@
 		(lib_id "power:GND")
 		(at 86.36 40.64 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2438350-de2f-489c-a116-99b3eddf9b3a")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR059"
 			(at 86.36 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 86.36 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 86.36 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 86.36 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 86.36 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10693,7 +11169,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/02edf1bd-e23a-4a4a-8860-4d5790274652"
-					(reference "#PWR071")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -10701,16 +11177,20 @@
 	)
 	(symbol
 		(lib_id "mixlib-electromechanic-switch:TS-A002")
-		(at 78.74 54.61 270)
+		(at 77.47 54.61 270)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "b76ae27a-35fd-4f34-90d8-ac8d314e5ecf")
 		(property "Reference" "SW1"
-			(at 77.47 53.3399 90)
+			(at 76.2 53.3399 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10719,43 +11199,53 @@
 			)
 		)
 		(property "Value" "TS-A002"
-			(at 77.47 55.8799 90)
+			(at 76.2 55.8799 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify right)
 			)
 		)
 		(property "Footprint" "mixlib-electromechanic-switch:TS-A002"
-			(at 78.74 54.61 0)
+			(at 77.47 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.hq-dz.com/uploadfile/2024/0305/20240305025619371.pdf"
-			(at 73.406 54.102 0)
+			(at 72.136 54.102 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "12V 50mA 0.1Ohm MINIATURE SMD SPST BUTTON"
-			(at 72.644 55.118 0)
+			(at 71.374 55.118 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Role" "BUTTON"
-			(at 76.2 58.42 90)
+			(at 74.93 58.42 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -10782,55 +11272,67 @@
 		(lib_id "power:GND")
 		(at 91.44 59.69 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9d2fa7d-a273-4951-b4c3-2cc4b9efde45")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR061"
 			(at 91.44 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 91.44 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 91.44 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 91.44 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 91.44 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10839,7 +11341,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/02edf1bd-e23a-4a4a-8860-4d5790274652"
-					(reference "#PWR076")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -10847,16 +11349,20 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 76.2 40.64 0)
+		(at 77.47 40.64 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0324ee4-df5a-4196-b42e-862e45b5e548")
-		(property "Reference" "R44"
-			(at 78.74 39.3699 0)
+		(property "Reference" "R58"
+			(at 80.01 39.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -10865,7 +11371,9 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 78.74 41.9099 0)
+			(at 80.01 41.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10874,30 +11382,36 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 76.2 40.64 0)
+			(at 77.47 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 76.2 40.64 0)
+		(property "Datasheet" ""
+			(at 77.47 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 76.2 40.64 0)
+			(at 77.47 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10909,77 +11423,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/02edf1bd-e23a-4a4a-8860-4d5790274652"
-					(reference "R44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 146.05 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "dbcc0855-48df-4097-8f18-643a02bd2da4")
-		(property "Reference" "R49"
-			(at 148.59 82.5499 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 148.59 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 146.05 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 146.05 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "47b53d3d-0a8a-4cc2-afe9-de15f653044f")
-		)
-		(pin "1"
-			(uuid "68113f40-4d1c-4a9c-b50f-b7f9f044f421")
-		)
-		(instances
-			(project "mixpower-path-mini-bq25672-lv-board-r1"
-				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/02edf1bd-e23a-4a4a-8860-4d5790274652"
-					(reference "R49")
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -10989,13 +11433,17 @@
 		(lib_id "Connector:TestPoint_Small")
 		(at 123.19 39.37 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "e9ee5897-3745-40f7-8dc3-8ec0394548e6")
-		(property "Reference" "TP2"
+		(property "Reference" "TP6"
 			(at 123.19 41.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11005,6 +11453,8 @@
 		)
 		(property "Value" "SOC_RST_PP"
 			(at 123.19 44.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -11014,29 +11464,35 @@
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 128.27 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 128.27 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "test point"
 			(at 123.19 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11045,7 +11501,92 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/02edf1bd-e23a-4a4a-8860-4d5790274652"
-					(reference "TP2")
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 138.43 74.93 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee8a1449-530f-4841-932f-c654ece44a90")
+		(property "Reference" "JP4"
+			(at 135.89 73.6599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RTC"
+			(at 135.89 76.1999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 138.43 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 138.43 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ded3067-5747-45a4-9a7b-79e982d857e7")
+		)
+		(pin "2"
+			(uuid "81a1e7a6-e486-4d7c-add8-89715e5d79a6")
+		)
+		(pin "3"
+			(uuid "35d4630e-cded-4ff0-895b-f77e17ce2da2")
+		)
+		(instances
+			(project "mixpower-path-mini-bq25672-lv-board-r1"
+				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/02edf1bd-e23a-4a4a-8860-4d5790274652"
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -11055,14 +11596,18 @@
 		(lib_id "mixlib-pmic-supervisor:RT9829GQW")
 		(at 105.41 81.28 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efd04da8-419b-4e1d-a50e-076ecf3d058a")
-		(property "Reference" "U11"
+		(property "Reference" "U8"
 			(at 105.41 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11071,6 +11616,8 @@
 		)
 		(property "Value" "RT9829GQW"
 			(at 105.41 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11079,31 +11626,37 @@
 		)
 		(property "Footprint" "mixlib-pmic-supervisor:Specific_DFN8_RT9829_RIT"
 			(at 106.68 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.richtek.com/assets/product_file/RT9829/DS9829-00.pdf"
 			(at 106.68 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Dual Push-Button Reset with Push-Button Controlled Output Delay"
 			(at 105.41 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "4"
@@ -11133,7 +11686,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/02edf1bd-e23a-4a4a-8860-4d5790274652"
-					(reference "U11")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -11143,14 +11696,18 @@
 		(lib_id "mixlib-pmic-supervisor:RT9829GQW")
 		(at 105.41 40.64 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fef4da34-d5ef-4e06-aedf-3341bd06f6f7")
-		(property "Reference" "U9"
+		(property "Reference" "U7"
 			(at 105.41 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11159,6 +11716,8 @@
 		)
 		(property "Value" "RT9829GQW"
 			(at 105.41 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11167,31 +11726,37 @@
 		)
 		(property "Footprint" "mixlib-pmic-supervisor:Specific_DFN8_RT9829_RIT"
 			(at 106.68 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.richtek.com/assets/product_file/RT9829/DS9829-00.pdf"
 			(at 106.68 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Dual Push-Button Reset with Push-Button Controlled Output Delay"
 			(at 105.41 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "4"
@@ -11221,7 +11786,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/02edf1bd-e23a-4a4a-8860-4d5790274652"
-					(reference "U9")
+					(reference "U7")
 					(unit 1)
 				)
 			)

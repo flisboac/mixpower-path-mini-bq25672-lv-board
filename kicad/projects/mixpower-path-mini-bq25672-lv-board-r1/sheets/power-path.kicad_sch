@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "4a1ee0eb-1a27-473e-bc33-61de489833e4")
 	(paper "A4")
 	(lib_symbols
@@ -16,8 +16,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -27,6 +31,8 @@
 			)
 			(property "Value" "C_Small"
 				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -36,47 +42,57 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "capacitor cap"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "C_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "C_Small_0_1"
@@ -109,7 +125,7 @@
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -127,7 +143,7 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 2.032)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -156,8 +172,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
 				(at -1.27 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -167,6 +187,8 @@
 			)
 			(property "Value" "LED_Small"
 				(at -4.445 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -176,56 +198,68 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Light emitting diode, small symbol"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Sim.Pins" "1=K 2=A"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "LED diode light-emitting-diode"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "LED_Small_0_1"
@@ -341,8 +375,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "L"
 				(at 0.762 1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -352,6 +390,8 @@
 			)
 			(property "Value" "L_Small"
 				(at 0.762 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -361,47 +401,57 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Inductor, small symbol"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "inductor choke coil reactor magnetic"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "L_Small_0_1"
@@ -458,7 +508,7 @@
 				(pin passive line
 					(at 0 2.54 270)
 					(length 0.508)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -476,7 +526,7 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 0.508)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -505,8 +555,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.016 1.016)
@@ -515,6 +569,8 @@
 			)
 			(property "Value" "R_Small"
 				(at 1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -523,47 +579,57 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Resistor, small symbol"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "R resistor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "R_Small_0_1"
@@ -583,7 +649,7 @@
 				(pin passive line
 					(at 0 2.54 270)
 					(length 0.762)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -601,7 +667,7 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 0.762)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -619,7 +685,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:BZX384xxxx"
+		(symbol "Diode:DZ2S180X0L"
 			(pin_numbers
 				(hide yes)
 			)
@@ -629,68 +695,84 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
 				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "BZX384xxxx"
+			(property "Value" "DZ2S180X0L"
 				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_SOD-323"
+			(property "Footprint" "Diode_SMD:D_SOD-523"
 				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.vishay.com/docs/85764/bzx384.pdf"
+			(property "Datasheet" "https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S18000L_E.pdf"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Description" "300mW Zener Diode, SOD-323"
+			(property "Description" "150mW Silicon Planar Zener Diode, 18V, SOD-523"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "zener diode"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "D*SOD*323*"
+			(property "ki_fp_filters" "D?SOD?523*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(symbol "BZX384xxxx_0_1"
+			(symbol "DZ2S180X0L_0_1"
 				(polyline
 					(pts
 						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
@@ -728,7 +810,7 @@
 					)
 				)
 			)
-			(symbol "BZX384xxxx_1_1"
+			(symbol "DZ2S180X0L_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -775,8 +857,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Q"
 				(at 3.048 1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -786,6 +872,8 @@
 			)
 			(property "Value" "DMN3032LFDBQ"
 				(at 3.048 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -795,29 +883,35 @@
 			)
 			(property "Footprint" "mixlib-generic-dfn:Diodes-Incorporated_U-DFN2020-6_Type-B"
 				(at 4.572 -11.176 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://www.diodes.com/datasheet/download/DMN3032LFDBQ.pdf"
 				(at 3.556 -11.684 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "30V, 5A, DUAL N-CHANNEL ENHANCEMENT MODE MOSFET, U-DFN2020-6"
 				(at 10.922 -12.192 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "DMN3032LFDBQ_0_1"
@@ -988,6 +1082,24 @@
 				)
 			)
 			(symbol "DMN3032LFDBQ_1_1"
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -6.35 0 0)
 					(length 2.54)
@@ -1042,17 +1154,19 @@
 						)
 					)
 				)
+			)
+			(symbol "DMN3032LFDBQ_2_1"
 				(pin passive line
-					(at 0 -5.08 90)
+					(at 0 5.08 270)
 					(length 2.54)
-					(name "S1"
+					(name "D2"
 						(effects
 							(font
 								(size 0.0254 0.0254)
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1060,8 +1174,24 @@
 						)
 					)
 				)
-			)
-			(symbol "DMN3032LFDBQ_2_1"
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "S2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -1090,43 +1220,7 @@
 							)
 						)
 					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "D2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
 					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "S2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1144,8 +1238,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at -0.762 30.734 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1155,6 +1253,8 @@
 			)
 			(property "Value" "BQ25672"
 				(at -4.826 28.194 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1164,79 +1264,95 @@
 			)
 			(property "Footprint" "mixlib-vendor-ti:vendor-ti-RQM0029A-MFG"
 				(at -3.81 -46.99 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq25672.pdf"
 				(at -0.762 -47.498 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "I²C controlled, 1- to 4-cell, 3-A buck battery charger with dual-input selector and integrated ADC"
 				(at -0.762 -45.974 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "MF" "Texas Instruments"
 				(at -1.016 -48.006 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
-					(hide yes)
 				)
 			)
 			(property "Package" "VFQFN-29 Texas Instruments"
 				(at -0.762 -45.974 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
-					(hide yes)
 				)
 			)
 			(property "MFR" "BQ25672RQMR"
 				(at 0.762 -47.244 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
-					(hide yes)
 				)
 			)
 			(property "Manufacturer" "Texas Instruments"
 				(at -0.508 -47.498 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
-					(hide yes)
 				)
 			)
 			(property "JLCPCB" "C3682029"
 				(at 0.508 -48.768 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "BQ25672_1_0"
@@ -1251,71 +1367,17 @@
 						(type background)
 					)
 				)
-				(pin passive line
-					(at -13.97 24.13 0)
+				(pin open_collector line
+					(at 13.97 -1.27 180)
 					(length 5.08)
-					(name "ACDRV1"
+					(name "STAT"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "11"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -13.97 21.59 0)
-					(length 5.08)
-					(name "ACDRV2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -13.97 15.24 0)
-					(length 5.08)
-					(name "VAC1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -13.97 12.7 0)
-					(length 5.08)
-					(name "VAC2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "8"
+					(number "1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1359,6 +1421,42 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 13.97 21.59 180)
+					(length 5.08)
+					(name "BTST1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 13.97 7.62 180)
+					(length 5.08)
+					(name "REGN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
 				(pin bidirectional line
 					(at -13.97 0 0)
 					(length 5.08)
@@ -1388,6 +1486,114 @@
 						)
 					)
 					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -13.97 12.7 0)
+					(length 5.08)
+					(name "VAC2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -13.97 15.24 0)
+					(length 5.08)
+					(name "VAC1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -13.97 21.59 0)
+					(length 5.08)
+					(name "ACDRV2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -13.97 24.13 0)
+					(length 5.08)
+					(name "ACDRV1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -13.97 -20.32 0)
+					(length 5.08)
+					(name "~{QON}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 -17.78 0)
+					(length 5.08)
+					(name "~{CE}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1431,179 +1637,17 @@
 						)
 					)
 				)
-				(pin open_collector line
-					(at -13.97 -12.7 0)
-					(length 5.08)
-					(name "~{INT}"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin input line
-					(at -13.97 -17.78 0)
+					(at 13.97 -17.78 180)
 					(length 5.08)
-					(name "~{CE}"
+					(name "TS"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "13"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -13.97 -20.32 0)
-					(length 5.08)
-					(name "~{QON}"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -27.94 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 13.97 24.13 180)
-					(length 5.08)
-					(name "PMID"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 21.59 180)
-					(length 5.08)
-					(name "BTST1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 19.05 180)
-					(length 5.08)
-					(name "SW1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 13.97 180)
-					(length 5.08)
-					(name "SW2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 11.43 180)
-					(length 5.08)
-					(name "BTST2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 13.97 7.62 180)
-					(length 5.08)
-					(name "REGN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
+					(number "16"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1629,17 +1673,17 @@
 						)
 					)
 				)
-				(pin open_collector line
-					(at 13.97 -1.27 180)
+				(pin input line
+					(at 13.97 -15.24 180)
 					(length 5.08)
-					(name "STAT"
+					(name "BATP"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "1"
+					(number "18"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1647,17 +1691,53 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 13.97 -3.81 180)
+				(pin passive line
+					(at 13.97 11.43 180)
 					(length 5.08)
-					(name "SYS"
+					(name "BTST2"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "25"
+					(number "19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 13.97 -20.32 180)
+					(length 5.08)
+					(name "PROG"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -13.97 -12.7 0)
+					(length 5.08)
+					(name "~{INT}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "21"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1719,17 +1799,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at 13.97 -15.24 180)
+				(pin power_out line
+					(at 13.97 -3.81 180)
 					(length 5.08)
-					(name "BATP"
+					(name "SYS"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "18"
+					(number "25"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1737,17 +1817,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at 13.97 -17.78 180)
+				(pin passive line
+					(at 13.97 13.97 180)
 					(length 5.08)
-					(name "TS"
+					(name "SW2"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "16"
+					(number "26"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1755,17 +1835,53 @@
 						)
 					)
 				)
-				(pin input line
-					(at 13.97 -20.32 180)
+				(pin power_in line
+					(at 0 -27.94 90)
 					(length 5.08)
-					(name "PROG"
+					(name "GND"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "20"
+					(number "27"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 19.05 180)
+					(length 5.08)
+					(name "SW1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 13.97 24.13 180)
+					(length 5.08)
+					(name "PMID"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "29"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1777,7 +1893,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:GND"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -1788,17 +1904,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "GND"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1807,38 +1929,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "GND_0_1"
@@ -1859,7 +1989,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1878,7 +2008,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:PWR_FLAG"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -1889,17 +2019,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#FLG"
 				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "PWR_FLAG"
 				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1908,45 +2044,53 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Special symbol for telling ERC where power comes from"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "flag power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "PWR_FLAG_0_0"
 				(pin power_out line
 					(at 0 0 90)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1981,7 +2125,7 @@
 	)
 	(rectangle
 		(start 118.11 52.07)
-		(end 149.86 69.85)
+		(end 157.48 69.85)
 		(stroke
 			(width 0)
 			(type dot)
@@ -1989,11 +2133,11 @@
 		(fill
 			(type none)
 		)
-		(uuid 5182f329-bea4-46d8-bfb8-fe58b93e5fc1)
+		(uuid "5182f329-bea4-46d8-bfb8-fe58b93e5fc1")
 	)
 	(rectangle
-		(start 83.82 116.84)
-		(end 142.24 153.67)
+		(start 81.28 118.11)
+		(end 139.7 153.67)
 		(stroke
 			(width 0)
 			(type dot)
@@ -2001,11 +2145,11 @@
 		(fill
 			(type none)
 		)
-		(uuid 53514b0a-f350-46f3-b246-2f5c2e71f91c)
+		(uuid "53514b0a-f350-46f3-b246-2f5c2e71f91c")
 	)
 	(rectangle
 		(start 22.86 16.51)
-		(end 158.75 156.21)
+		(end 158.75 154.94)
 		(stroke
 			(width 0)
 			(type dash_dot_dot)
@@ -2014,7 +2158,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 60daa644-6d90-4c03-8f66-ce4a8582e0d3)
+		(uuid "60daa644-6d90-4c03-8f66-ce4a8582e0d3")
 	)
 	(rectangle
 		(start 24.13 24.13)
@@ -2026,11 +2170,11 @@
 		(fill
 			(type none)
 		)
-		(uuid 66e5cd85-93d9-45a2-b09a-8e31b846d569)
+		(uuid "66e5cd85-93d9-45a2-b09a-8e31b846d569")
 	)
 	(rectangle
-		(start 83.82 97.79)
-		(end 104.14 115.57)
+		(start 24.13 101.6)
+		(end 80.01 153.67)
 		(stroke
 			(width 0)
 			(type dot)
@@ -2038,23 +2182,11 @@
 		(fill
 			(type none)
 		)
-		(uuid 804a4a98-007d-48bf-9a38-04822d45ecbb)
-	)
-	(rectangle
-		(start 24.13 100.33)
-		(end 82.55 153.67)
-		(stroke
-			(width 0)
-			(type dot)
-		)
-		(fill
-			(type none)
-		)
-		(uuid a709921e-cde8-488b-a52e-dc8f6e85aa86)
+		(uuid "a709921e-cde8-488b-a52e-dc8f6e85aa86")
 	)
 	(rectangle
 		(start 116.84 97.79)
-		(end 130.81 115.57)
+		(end 130.81 116.84)
 		(stroke
 			(width 0)
 			(type dot)
@@ -2062,11 +2194,11 @@
 		(fill
 			(type none)
 		)
-		(uuid b971b0ea-c865-48d6-9900-e84101f692c2)
+		(uuid "b971b0ea-c865-48d6-9900-e84101f692c2")
 	)
-	(text "* Switching nodes.\n  Place them near\n  each other."
+	(text "* Switching nodes.\n  Place them near\n  each other.\n* Assuming:\n  Iripple = 2.5A\n  Iinput = 3A\n  Icharge = 3A\n  Isat = 3+(2.5/2)\n   = 4.25A"
 		(exclude_from_sim no)
-		(at 138.43 55.88 0)
+		(at 142.24 59.69 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -2125,21 +2257,9 @@
 		)
 		(uuid "b83f2f7f-929c-4b34-96fb-fdc38e6d2760")
 	)
-	(text "* Just a safeguard in case\n  my ~{QON} logic ends up not\n  working out.\n* Remove the series resistor\n  to disable ~{QON} control."
-		(exclude_from_sim no)
-		(at 85.09 111.76 0)
-		(effects
-			(font
-				(size 0.762 0.762)
-				(color 72 72 72 1)
-			)
-			(justify left)
-		)
-		(uuid "e175a7c8-dfbb-4e93-ae3f-67b8619aba5e")
-	)
 	(text "* POR programming:\n  1-cell, 1.5MHz."
 		(exclude_from_sim no)
-		(at 118.11 113.03 0)
+		(at 118.11 114.3 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -2156,7 +2276,7 @@
 		(uuid "06457a5e-148e-47a1-9fb1-c97666e1ee93")
 	)
 	(junction
-		(at 45.72 104.14)
+		(at 43.18 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a154d37-2757-4407-a2b2-90f85fc023db")
@@ -2168,7 +2288,7 @@
 		(uuid "180fcd96-5105-41c1-8c95-e671bc279801")
 	)
 	(junction
-		(at 58.42 129.54)
+		(at 55.88 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1dff13bd-09a1-4266-935f-0ebf68777a31")
@@ -2186,19 +2306,13 @@
 		(uuid "27533020-7cb9-4352-b9a8-e9ae41fc794b")
 	)
 	(junction
-		(at 71.12 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "27bc00d1-d54e-40a2-9ad0-3f0b052d1998")
-	)
-	(junction
-		(at 58.42 142.24)
+		(at 55.88 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e0ace98-0ce0-4f16-b820-5f0263d57639")
 	)
 	(junction
-		(at 58.42 116.84)
+		(at 55.88 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f01fbf5-7cc9-4eaf-8249-e26948a21b74")
@@ -2228,19 +2342,13 @@
 		(uuid "4a4957d2-1b70-40a9-aea5-e2e6eb01fed3")
 	)
 	(junction
-		(at 109.22 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a7c9a28-1c1f-4e87-8865-348899b41c97")
-	)
-	(junction
 		(at 67.31 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5495c8d6-d0d6-436f-bf0e-828368ab5a53")
 	)
 	(junction
-		(at 120.65 119.38)
+		(at 120.65 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58010a64-2df0-46a9-a355-c14f73b0b02d")
@@ -2252,7 +2360,7 @@
 		(uuid "5f879109-0531-4154-b10c-63f5a5346d31")
 	)
 	(junction
-		(at 71.12 116.84)
+		(at 68.58 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66c76f54-5f01-45e3-b418-a00faf5aed8e")
@@ -2264,7 +2372,13 @@
 		(uuid "720238c7-023e-4baf-be84-053518833b5b")
 	)
 	(junction
-		(at 33.02 104.14)
+		(at 100.33 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "805ea23e-a32e-4f8e-8786-5a1346d91987")
+	)
+	(junction
+		(at 30.48 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "849eb7f2-548e-4b05-847e-10d6501c19ab")
@@ -2282,10 +2396,16 @@
 		(uuid "8c71d4dd-cf02-4783-867f-d0d6e02fe424")
 	)
 	(junction
-		(at 71.12 104.14)
+		(at 68.58 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "953bdb23-18a6-4ca5-a0dd-6b7444d12471")
+	)
+	(junction
+		(at 109.22 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98e3c728-c62b-4390-b226-65c1f93652b2")
 	)
 	(junction
 		(at 143.51 93.98)
@@ -2294,22 +2414,16 @@
 		(uuid "ad9cb291-f12b-4dba-97d9-d3ee90fcfe81")
 	)
 	(junction
-		(at 100.33 133.35)
+		(at 120.65 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "af4aef3b-9d6d-40d9-a0cd-ef1040ee0b0b")
+		(uuid "b0c56782-6f1e-4122-8208-4fc8dd3d7a0c")
 	)
 	(junction
-		(at 100.33 119.38)
+		(at 100.33 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c25ef2b6-598d-4244-adf0-0e6de5f7e45e")
-	)
-	(junction
-		(at 85.09 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c28161ba-a06c-4bc6-8796-d89a783e9ab8")
 	)
 	(junction
 		(at 134.62 91.44)
@@ -2336,7 +2450,7 @@
 		(uuid "d1c15cf8-041d-4ac5-9451-5fd6dc2fac3b")
 	)
 	(junction
-		(at 58.42 104.14)
+		(at 55.88 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2a77efc-2bfd-41ae-b77c-701a282ac4f6")
@@ -2348,16 +2462,10 @@
 		(uuid "d31a7d9f-7bca-4b51-b3d5-6f8cd2107f06")
 	)
 	(junction
-		(at 45.72 116.84)
+		(at 43.18 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8fd5dec-6692-455a-9b29-65d90551533a")
-	)
-	(junction
-		(at 120.65 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e154393c-d43c-4476-8aee-27e629e1ee59")
 	)
 	(junction
 		(at 87.63 41.91)
@@ -2366,13 +2474,7 @@
 		(uuid "e9346261-d5d4-4f54-b7e8-2389ffac36d7")
 	)
 	(junction
-		(at 71.12 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fafa0392-9307-4c87-995e-54cce6f38b5b")
-	)
-	(junction
-		(at 109.22 119.38)
+		(at 109.22 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb94ffa9-8b0a-4f53-911f-dddde28ca38a")
@@ -2385,7 +2487,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 116.84) (xy 58.42 119.38)
+			(xy 55.88 116.84) (xy 55.88 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2405,7 +2507,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 116.84) (xy 58.42 116.84)
+			(xy 43.18 116.84) (xy 55.88 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2415,7 +2517,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 133.35) (xy 100.33 137.16)
+			(xy 100.33 128.27) (xy 100.33 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2435,17 +2537,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 96.52) (xy 93.98 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07e461e1-0b90-419c-8c15-10078d6b6528")
-	)
-	(wire
-		(pts
-			(xy 87.63 119.38) (xy 100.33 119.38)
+			(xy 87.63 120.65) (xy 100.33 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2455,7 +2547,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 81.28) (xy 93.98 81.28)
+			(xy 21.59 81.28) (xy 63.5 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2505,7 +2597,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 116.84) (xy 33.02 119.38)
+			(xy 30.48 116.84) (xy 30.48 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2545,17 +2637,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 38.1) (xy 160.02 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "134695fe-95c1-4b91-9623-0db07a784c84")
-	)
-	(wire
-		(pts
-			(xy 41.91 142.24) (xy 33.02 142.24)
+			(xy 39.37 142.24) (xy 30.48 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2565,23 +2647,23 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 130.81) (xy 109.22 137.16)
+			(xy 121.92 72.39) (xy 157.48 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "154eb582-e154-4993-b400-d9d0c027d10e")
+	)
+	(wire
+		(pts
+			(xy 109.22 128.27) (xy 109.22 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1631674b-1166-4ad2-b835-a8a7328d0281")
-	)
-	(wire
-		(pts
-			(xy 71.12 129.54) (xy 71.12 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19b5a5d1-b638-4b03-a052-3b67570ba580")
 	)
 	(wire
 		(pts
@@ -2605,7 +2687,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 104.14) (xy 71.12 104.14)
+			(xy 77.47 104.14) (xy 68.58 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2615,7 +2697,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 104.14) (xy 33.02 106.68)
+			(xy 30.48 104.14) (xy 30.48 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2625,13 +2707,23 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 127) (xy 120.65 128.27)
+			(xy 121.92 71.12) (xy 121.92 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "22a234b0-2d0a-4078-bd16-213a009a96a3")
+		(uuid "2596d448-916c-4fda-b274-47c7421809b0")
+	)
+	(wire
+		(pts
+			(xy 109.22 133.35) (xy 109.22 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25bb72c9-f22a-460d-a599-ad3c0ee37b58")
 	)
 	(wire
 		(pts
@@ -2656,17 +2748,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 142.24) (xy 71.12 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2be758f3-0c59-4550-9f40-6f5cc2a1ff52")
-	)
-	(wire
-		(pts
-			(xy 87.63 127) (xy 87.63 137.16)
+			(xy 87.63 128.27) (xy 87.63 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2676,7 +2758,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 119.38) (xy 109.22 121.92)
+			(xy 109.22 120.65) (xy 109.22 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2716,7 +2798,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 142.24) (xy 58.42 142.24)
+			(xy 55.88 142.24) (xy 77.47 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2746,13 +2828,23 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 116.84) (xy 33.02 116.84)
+			(xy 43.18 116.84) (xy 30.48 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3987575e-f697-4995-8022-53ea765a73a9")
+	)
+	(wire
+		(pts
+			(xy 21.59 96.52) (xy 93.98 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39da83d8-b3ca-4ba1-9bfe-bc5bd618306a")
 	)
 	(wire
 		(pts
@@ -2766,7 +2858,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 142.24) (xy 58.42 142.24)
+			(xy 43.18 142.24) (xy 55.88 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2776,17 +2868,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 48.26) (xy 76.2 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d98e5aa-63c1-4d38-a029-8a07d62e6ee5")
-	)
-	(wire
-		(pts
-			(xy 71.12 116.84) (xy 71.12 119.38)
+			(xy 68.58 116.84) (xy 68.58 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2796,7 +2878,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 104.14) (xy 45.72 104.14)
+			(xy 55.88 104.14) (xy 43.18 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2806,7 +2888,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 119.38) (xy 120.65 121.92)
+			(xy 120.65 120.65) (xy 120.65 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2816,7 +2898,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 119.38) (xy 109.22 119.38)
+			(xy 100.33 120.65) (xy 109.22 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2836,7 +2918,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 104.14) (xy 33.02 104.14)
+			(xy 43.18 104.14) (xy 30.48 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2866,7 +2948,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 104.14) (xy 71.12 106.68)
+			(xy 68.58 104.14) (xy 68.58 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2936,13 +3018,23 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 129.54) (xy 71.12 129.54)
+			(xy 120.65 128.27) (xy 120.65 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "52b5f594-b83e-4edd-ba5a-9876f97f7c95")
+		(uuid "54bc66eb-29ce-4d15-8251-6e63f955acae")
+	)
+	(wire
+		(pts
+			(xy 68.58 81.28) (xy 93.98 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6006860b-ce1d-4703-af1c-815188ac5015")
 	)
 	(wire
 		(pts
@@ -2986,7 +3078,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 121.92) (xy 87.63 119.38)
+			(xy 87.63 123.19) (xy 87.63 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2996,7 +3088,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 104.14) (xy 58.42 104.14)
+			(xy 68.58 104.14) (xy 55.88 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3016,13 +3108,23 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 128.27) (xy 138.43 128.27)
+			(xy 120.65 130.81) (xy 138.43 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6cdb178b-1995-4358-9879-4d392d70793a")
+	)
+	(wire
+		(pts
+			(xy 68.58 78.74) (xy 93.98 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dce5eb5-1840-4113-b3bc-dc90e843fc96")
 	)
 	(wire
 		(pts
@@ -3086,7 +3188,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 116.84) (xy 45.72 119.38)
+			(xy 43.18 116.84) (xy 43.18 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3106,7 +3208,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 64.77) (xy 76.2 57.15)
+			(xy 76.2 57.15) (xy 76.2 64.77)
 		)
 		(stroke
 			(width 0)
@@ -3126,23 +3228,13 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 104.14) (xy 33.02 104.14)
+			(xy 27.94 104.14) (xy 30.48 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7aa93d26-6ca7-4ba5-8362-802f1d15769a")
-	)
-	(wire
-		(pts
-			(xy 109.22 127) (xy 109.22 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ba8ec98-658a-4d6f-a184-01f168317302")
 	)
 	(wire
 		(pts
@@ -3186,6 +3278,26 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 130.81) (xy 120.65 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84fc6898-7547-4764-90d6-ddd235cacf76")
+	)
+	(wire
+		(pts
+			(xy 76.2 49.53) (xy 76.2 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85d9c8f0-e311-4351-a614-a26ea78fa303")
+	)
+	(wire
+		(pts
 			(xy 35.56 50.8) (xy 35.56 55.88)
 		)
 		(stroke
@@ -3196,7 +3308,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 129.54) (xy 45.72 132.08)
+			(xy 43.18 129.54) (xy 43.18 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3206,7 +3318,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 133.35) (xy 100.33 133.35)
+			(xy 138.43 135.89) (xy 100.33 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3236,7 +3348,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 129.54) (xy 58.42 129.54)
+			(xy 43.18 129.54) (xy 55.88 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3286,17 +3398,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 142.24) (xy 71.12 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9852a2aa-8b3f-48f2-b80c-da0d33720af9")
-	)
-	(wire
-		(pts
-			(xy 45.72 104.14) (xy 45.72 106.68)
+			(xy 43.18 104.14) (xy 43.18 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3306,7 +3408,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 142.24) (xy 45.72 144.78)
+			(xy 43.18 142.24) (xy 43.18 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3326,7 +3428,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 116.84) (xy 71.12 116.84)
+			(xy 77.47 116.84) (xy 68.58 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3336,17 +3438,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 99.06) (xy 85.09 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a516ce52-9f62-4d4e-876a-87904d9b2350")
-	)
-	(wire
-		(pts
-			(xy 100.33 119.38) (xy 100.33 121.92)
+			(xy 100.33 120.65) (xy 100.33 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3396,6 +3488,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 135.89) (xy 100.33 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b54c78ff-1840-43f9-a30a-cf6aeb854530")
+	)
+	(wire
+		(pts
 			(xy 76.2 57.15) (xy 78.74 57.15)
 		)
 		(stroke
@@ -3406,7 +3508,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 119.38) (xy 120.65 119.38)
+			(xy 109.22 120.65) (xy 120.65 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3416,7 +3518,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 142.24) (xy 58.42 144.78)
+			(xy 55.88 142.24) (xy 55.88 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3436,7 +3538,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 142.24) (xy 33.02 144.78)
+			(xy 30.48 142.24) (xy 30.48 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3486,16 +3588,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 57.15) (xy 45.72 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2bc6c19-074b-43b8-8bec-6e9e49d54341")
-	)
-	(wire
-		(pts
 			(xy 21.59 91.44) (xy 93.98 91.44)
 		)
 		(stroke
@@ -3503,16 +3595,6 @@
 			(type default)
 		)
 		(uuid "c4be5d39-4381-4f27-9a76-9aadb4fa78ac")
-	)
-	(wire
-		(pts
-			(xy 121.92 71.12) (xy 157.48 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5013f31-a3d3-46fd-b14f-8b753cb4e821")
 	)
 	(wire
 		(pts
@@ -3526,6 +3608,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 57.15) (xy 45.72 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c642063d-a9d1-468a-902c-6497bbe998fe")
+	)
+	(wire
+		(pts
 			(xy 67.31 57.15) (xy 76.2 57.15)
 		)
 		(stroke
@@ -3536,7 +3628,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 99.06) (xy 85.09 99.06)
+			(xy 78.74 99.06) (xy 93.98 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3586,7 +3678,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 119.38) (xy 120.65 119.38)
+			(xy 138.43 120.65) (xy 120.65 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3606,7 +3698,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 116.84) (xy 71.12 116.84)
+			(xy 55.88 116.84) (xy 68.58 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3616,7 +3708,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 129.54) (xy 58.42 129.54)
+			(xy 55.88 129.54) (xy 77.47 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3666,7 +3758,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 104.14) (xy 58.42 106.68)
+			(xy 55.88 104.14) (xy 55.88 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3686,7 +3778,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 130.81) (xy 138.43 130.81)
+			(xy 109.22 133.35) (xy 138.43 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3736,17 +3828,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 128.27) (xy 120.65 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e94ff78f-e201-44cd-b27b-0061b38662d4")
-	)
-	(wire
-		(pts
-			(xy 21.59 78.74) (xy 93.98 78.74)
+			(xy 21.59 78.74) (xy 63.5 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3786,17 +3868,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 133.35) (xy 100.33 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eeb3509d-1104-46fa-9dd2-eef19e114c57")
-	)
-	(wire
-		(pts
-			(xy 58.42 129.54) (xy 58.42 132.08)
+			(xy 55.88 129.54) (xy 55.88 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3823,16 +3895,6 @@
 			(type default)
 		)
 		(uuid "f2cadb46-b36c-49ba-87c9-33ba5efb0d73")
-	)
-	(wire
-		(pts
-			(xy 85.09 99.06) (xy 93.98 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f84674ba-59e8-409f-b4f2-8406cc8d928c")
 	)
 	(wire
 		(pts
@@ -3915,7 +3977,7 @@
 		(uuid "1cdcab39-cc59-4f3b-b7c5-a908788af5c2")
 	)
 	(label "VREGNLP"
-		(at 138.43 119.38 180)
+		(at 138.43 120.65 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -3925,7 +3987,7 @@
 		(uuid "1fdbd2fb-0b5c-4a08-9769-58662f32bc94")
 	)
 	(label "BC_ILIM"
-		(at 138.43 128.27 180)
+		(at 138.43 130.81 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -3945,7 +4007,7 @@
 		(uuid "3064518f-208f-4b49-8cad-7cc7736ac8d5")
 	)
 	(label "VOTG"
-		(at 80.01 116.84 180)
+		(at 77.47 116.84 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -3955,7 +4017,7 @@
 		(uuid "32fde792-df70-437d-959e-f54f2756a6c1")
 	)
 	(label "TS"
-		(at 138.43 130.81 180)
+		(at 138.43 133.35 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -3963,16 +4025,6 @@
 			(justify right bottom)
 		)
 		(uuid "492014d7-bf92-45f3-b4e4-f1005f49793c")
-	)
-	(label "VCC"
-		(at 153.67 38.1 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "4ff6e2d3-91a3-4639-9767-03c3b18ae2cc")
 	)
 	(label "VSWN_SW2"
 		(at 121.92 64.77 0)
@@ -3995,7 +4047,7 @@
 		(uuid "6047b3df-ec68-4a0e-963c-b57a4230b9cb")
 	)
 	(label "VSEL"
-		(at 80.01 104.14 180)
+		(at 77.47 104.14 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4037,7 +4089,7 @@
 		(uuid "7ca6bfd8-4040-4f6e-a7bb-b9b00d45e2f9")
 	)
 	(label "VREGNLP"
-		(at 157.48 71.12 180)
+		(at 157.48 72.39 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4045,6 +4097,16 @@
 			(justify right bottom)
 		)
 		(uuid "7ce8f4a0-17fa-40d6-9f20-bcda9f170215")
+	)
+	(label "BC_D+"
+		(at 93.98 78.74 180)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right bottom)
+		)
+		(uuid "84bdd545-085d-42c8-9deb-6a52b375474e")
 	)
 	(label "VIN2_ACDRV_G"
 		(at 83.82 57.15 0)
@@ -4067,7 +4129,7 @@
 		(uuid "8faca9f8-6522-41c6-a453-16a9ddf22a06")
 	)
 	(label "~{CE}"
-		(at 138.43 133.35 180)
+		(at 138.43 135.89 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4095,6 +4157,26 @@
 			(justify left bottom)
 		)
 		(uuid "a39cf550-b8b7-4791-9668-cd4e879167b6")
+	)
+	(label "~{BC_QON}"
+		(at 93.98 99.06 180)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right bottom)
+		)
+		(uuid "cb980c58-6795-412d-97cd-ba38a6e9699c")
+	)
+	(label "BC_D-"
+		(at 93.98 81.28 180)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right bottom)
+		)
+		(uuid "dda74cb7-6a73-4d0b-8ef1-875c46717ef3")
 	)
 	(label "BC_BTST1"
 		(at 121.92 57.15 0)
@@ -4127,7 +4209,7 @@
 		(uuid "eabfe815-7ace-45e4-8622-968ff7eaf43a")
 	)
 	(label "VSYS"
-		(at 80.01 129.54 180)
+		(at 77.47 129.54 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4137,7 +4219,7 @@
 		(uuid "ed89cc74-b974-430d-ae70-dcd92f316fcb")
 	)
 	(label "VREGNLP"
-		(at 41.91 142.24 180)
+		(at 39.37 142.24 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4147,7 +4229,7 @@
 		(uuid "fddb73e7-e2dc-42c8-bc7b-f87de2739423")
 	)
 	(label "VBAT"
-		(at 80.01 142.24 180)
+		(at 77.47 142.24 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4321,17 +4403,6 @@
 		)
 		(uuid "e5bb2c9d-c092-4cef-9633-ed78e1e4b635")
 	)
-	(hierarchical_label "VCC"
-		(shape input)
-		(at 160.02 38.1 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "e7051571-7812-426b-b0fd-4459a00ef710")
-	)
 	(hierarchical_label "VAC1"
 		(shape input)
 		(at 21.59 40.64 180)
@@ -4348,55 +4419,67 @@
 		(at 124.46 107.95 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "012d9311-ffe0-424f-9c8c-c36fa2d3e5fa")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR042"
 			(at 124.46 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 124.46 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 124.46 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 124.46 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 124.46 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4405,94 +4488,8 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "#PWR019")
+					(reference "#PWR042")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mixlib-discrete-mosfet:DMN3032LFDBQ")
-		(at 45.72 72.39 90)
-		(mirror x)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "03eed346-0599-4bfe-8bd6-51009127edb6")
-		(property "Reference" "Q2"
-			(at 50.8 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DMN3032LFDBQ"
-			(at 50.8 76.2 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "mixlib-generic-dfn:Diodes-Incorporated_U-DFN2020-6_Type-B"
-			(at 56.896 76.962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/datasheet/download/DMN3032LFDBQ.pdf"
-			(at 57.404 75.946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "30V, 5A, DUAL N-CHANNEL ENHANCEMENT MODE MOSFET, U-DFN2020-6"
-			(at 57.912 83.312 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "13c8622f-41d1-4c9c-b615-d8c08710d631")
-		)
-		(pin "2"
-			(uuid "4b416041-4eaa-4e8c-9d3a-62b156f1b2e8")
-		)
-		(pin "4"
-			(uuid "f3dc0735-d89d-43d9-8d2f-30f062412356")
-		)
-		(pin "8"
-			(uuid "c13e78bc-34c2-44d7-a433-e7af069f313b")
-		)
-		(pin "7"
-			(uuid "53bb906b-6927-4c6f-a4bc-ef40144e5712")
-		)
-		(pin "1"
-			(uuid "10ef03cd-5c6e-4b16-b252-f046af4e2b57")
-		)
-		(pin "5"
-			(uuid "7fa85e25-243c-4c7e-921a-f2a68ee66419")
-		)
-		(pin "3"
-			(uuid "3420815b-7eb4-4a0d-a26c-5fdc853b65d8")
-		)
-		(instances
-			(project "mixpower-path-mini-bq25672-lv-board-r1"
-				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "Q2")
-					(unit 2)
 				)
 			)
 		)
@@ -4502,13 +4499,17 @@
 		(at 67.31 64.77 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "050505f5-873d-4c11-8efe-b9056601567c")
-		(property "Reference" "C10"
+		(property "Reference" "C28"
 			(at 69.85 63.5062 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4518,6 +4519,8 @@
 		)
 		(property "Value" "1n"
 			(at 69.85 66.0462 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4527,29 +4530,35 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 67.31 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 67.31 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 67.31 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4561,94 +4570,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mixlib-discrete-mosfet:DMN3032LFDBQ")
-		(at 76.2 41.91 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06be54f2-cdc0-4247-b26c-b4f4694f3b80")
-		(property "Reference" "Q3"
-			(at 76.2 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DMN3032LFDBQ"
-			(at 76.2 38.1 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "mixlib-generic-dfn:Diodes-Incorporated_U-DFN2020-6_Type-B"
-			(at 65.024 37.338 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/datasheet/download/DMN3032LFDBQ.pdf"
-			(at 64.516 38.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "30V, 5A, DUAL N-CHANNEL ENHANCEMENT MODE MOSFET, U-DFN2020-6"
-			(at 64.008 30.988 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "160cdba0-8128-44c9-a750-b37d4712c0ca")
-		)
-		(pin "2"
-			(uuid "c43f4e82-5d92-4a19-829f-05e94bacd5c8")
-		)
-		(pin "4"
-			(uuid "8907e6c0-053e-445d-afec-7bbed53f4c37")
-		)
-		(pin "8"
-			(uuid "bd33512d-46e6-4404-964f-c47cc2ee3e21")
-		)
-		(pin "7"
-			(uuid "e3e0e8e7-29e1-4273-9774-345979b450cf")
-		)
-		(pin "1"
-			(uuid "6ef3c5ac-f978-4f98-b532-4f3139052887")
-		)
-		(pin "5"
-			(uuid "e157c453-32e0-48c3-acfd-8f93fb02808b")
-		)
-		(pin "3"
-			(uuid "c49fd691-4468-4c2c-aabf-5fbf421a6469")
-		)
-		(instances
-			(project "mixpower-path-mini-bq25672-lv-board-r1"
-				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "Q3")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -4658,59 +4580,150 @@
 		(lib_id "power:GND")
 		(at 100.33 142.24 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "071d4ecf-4481-48a6-a4e4-6d188e98b365")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR038"
 			(at 100.33 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 100.33 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 100.33 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 100.33 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 100.33 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "9fc87eb3-02be-4815-bc75-1c3abce880f8")
+		)
+		(instances
+			(project "mixpower-path-mini-bq25672-lv-board-r1"
+				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 55.88 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08a18007-227f-4d97-8843-c7757479c077")
+		(property "Reference" "#PWR033"
+			(at 55.88 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f75df4d7-28b2-43ad-8baf-2ec4579d9d0b")
 		)
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
@@ -4722,67 +4735,93 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 58.42 124.46 0)
+		(lib_id "Device:C_Small")
+		(at 55.88 121.92 0)
+		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "08a18007-227f-4d97-8843-c7757479c077")
-		(property "Reference" "#PWR028"
-			(at 58.42 130.81 0)
+		(uuid "08ecb9d7-c37c-4898-8bb0-d65735567687")
+		(property "Reference" "C24"
+			(at 58.42 120.6562 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
 		)
-		(property "Value" "GND"
-			(at 58.42 129.54 0)
+		(property "Value" "10u"
+			(at 58.42 123.1962 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 58.42 124.46 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 55.88 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 124.46 0)
+			(at 55.88 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 124.46 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 55.88 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
+		)
+		(property "Voltage" "35V"
+			(at 58.42 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "8b00ea46-61d5-41ae-a93a-6c8c231a634a")
 		)
 		(pin "1"
-			(uuid "f75df4d7-28b2-43ad-8baf-2ec4579d9d0b")
+			(uuid "488256d2-314a-4945-8af5-b38c4e1f72f8")
 		)
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "#PWR028")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -4793,13 +4832,17 @@
 		(at 81.28 57.15 90)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "0929b354-90f9-431c-8fd4-f7fed5b282ff")
-		(property "Reference" "R12"
+		(property "Reference" "R28"
 			(at 81.28 62.23 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4808,6 +4851,8 @@
 		)
 		(property "Value" "220"
 			(at 81.28 59.69 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4816,29 +4861,35 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 81.28 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 81.28 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 81.28 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4850,77 +4901,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 58.42 121.92 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "12593c24-5498-451b-a554-22343ccf27bc")
-		(property "Reference" "C21"
-			(at 60.96 120.6562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10u"
-			(at 60.96 123.1962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 58.42 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 58.42 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "31599f26-78d5-4fa5-a307-c447f44f5c21")
-		)
-		(pin "1"
-			(uuid "08f34874-4f88-4d28-99ef-81e58fabade0")
-		)
-		(instances
-			(project "mixpower-path-mini-bq25672-lv-board-r1"
-				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "C21")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -4928,57 +4909,69 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 149.86 0)
+		(at 30.48 149.86 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14847086-345b-41dd-884d-16137d1759fd")
-		(property "Reference" "#PWR036"
-			(at 33.02 156.21 0)
+		(property "Reference" "#PWR027"
+			(at 30.48 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 154.94 0)
+			(at 30.48 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 149.86 0)
+			(at 30.48 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 149.86 0)
+			(at 30.48 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 149.86 0)
+			(at 30.48 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4987,7 +4980,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "#PWR036")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -4995,57 +4988,69 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 149.86 0)
+		(at 43.18 149.86 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14a2f9ad-e724-4002-bb3a-f63c85a6dbf1")
-		(property "Reference" "#PWR037"
-			(at 45.72 156.21 0)
+		(property "Reference" "#PWR031"
+			(at 43.18 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 154.94 0)
+			(at 43.18 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 149.86 0)
+			(at 43.18 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 149.86 0)
+			(at 43.18 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 149.86 0)
+			(at 43.18 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5054,7 +5059,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "#PWR037")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -5062,16 +5067,20 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 71.12 121.92 0)
+		(at 68.58 121.92 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "16553c5b-0993-497b-a415-99371c0186a8")
-		(property "Reference" "C22"
-			(at 73.66 120.6562 0)
+		(property "Reference" "C30"
+			(at 71.12 120.6562 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5080,7 +5089,9 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 73.66 123.1962 0)
+			(at 71.12 123.1962 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5088,31 +5099,48 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 71.12 121.92 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 68.58 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 71.12 121.92 0)
+		(property "Datasheet" ""
+			(at 68.58 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 71.12 121.92 0)
+			(at 68.58 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "Voltage" "35V"
+			(at 71.12 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
 			)
 		)
 		(pin "2"
@@ -5124,7 +5152,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "C22")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -5134,13 +5162,17 @@
 		(lib_id "Device:R_Small")
 		(at 124.46 104.14 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "1905b71e-e15c-4d2b-a3f4-ad17dc29d998")
-		(property "Reference" "R16"
+		(property "Reference" "R35"
 			(at 127 102.8699 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5150,6 +5182,8 @@
 		)
 		(property "Value" "3k"
 			(at 127 105.4099 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5159,29 +5193,35 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 124.46 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 124.46 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 124.46 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5193,7 +5233,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "R16")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -5201,16 +5241,20 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 33.02 109.22 0)
+		(at 30.48 109.22 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "1eba95a5-25ba-41e9-bd3f-44cb198b94ac")
-		(property "Reference" "C15"
-			(at 35.56 107.9562 0)
+		(property "Reference" "C14"
+			(at 33.02 107.9562 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5219,7 +5263,9 @@
 			)
 		)
 		(property "Value" "100u"
-			(at 35.56 110.4962 0)
+			(at 33.02 110.4962 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5228,30 +5274,36 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 33.02 109.22 0)
+			(at 30.48 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 33.02 109.22 0)
+		(property "Datasheet" ""
+			(at 30.48 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 33.02 109.22 0)
+			(at 30.48 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5263,77 +5315,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 71.12 109.22 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1f0e02d0-9b32-414f-886a-12d04c7c4c4f")
-		(property "Reference" "C18"
-			(at 73.66 107.9562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10u"
-			(at 73.66 110.4962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 71.12 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 71.12 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4241c5a1-afcf-4cbc-b5a3-d990ada34bbe")
-		)
-		(pin "1"
-			(uuid "93098624-df67-4341-9f4c-31220eb2bf24")
-		)
-		(instances
-			(project "mixpower-path-mini-bq25672-lv-board-r1"
-				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "C18")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -5343,13 +5325,17 @@
 		(lib_id "Device:R_Small")
 		(at 76.2 99.06 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "20ff7c01-2c0e-49ee-9287-6c5385c271c4")
-		(property "Reference" "R14"
+		(property "Reference" "R26"
 			(at 72.39 97.79 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5358,6 +5344,8 @@
 		)
 		(property "Value" "0"
 			(at 78.74 97.79 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5366,29 +5354,35 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 76.2 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 76.2 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 76.2 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5400,7 +5394,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "R14")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -5410,13 +5404,17 @@
 		(lib_id "mixlib-discrete-mosfet:DMN3032LFDBQ")
 		(at 45.72 41.91 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "22e1f6c1-40b1-490b-b268-cfc8d17e795d")
-		(property "Reference" "Q2"
+		(property "Reference" "Q5"
 			(at 45.72 35.56 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5425,6 +5423,8 @@
 		)
 		(property "Value" "DMN3032LFDBQ"
 			(at 45.72 38.1 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5433,29 +5433,35 @@
 		)
 		(property "Footprint" "mixlib-generic-dfn:Diodes-Incorporated_U-DFN2020-6_Type-B"
 			(at 56.896 37.338 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/datasheet/download/DMN3032LFDBQ.pdf"
 			(at 57.404 38.354 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "30V, 5A, DUAL N-CHANNEL ENHANCEMENT MODE MOSFET, U-DFN2020-6"
 			(at 57.912 30.988 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "6"
@@ -5485,77 +5491,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:BZX384xxxx")
-		(at 52.07 64.77 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2745eaf0-cee3-461e-bf8c-65ecb67497c4")
-		(property "Reference" "D3"
-			(at 54.61 63.4999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BZX384-A10"
-			(at 54.61 66.0399 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 47.625 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85764/bzx384.pdf"
-			(at 52.07 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "300mW Zener Diode, SOD-323"
-			(at 52.07 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "32748dce-8f40-48d7-813b-07aca4d700ac")
-		)
-		(pin "2"
-			(uuid "cdfaf088-3e6f-4b04-8b14-c5f77e476898")
-		)
-		(instances
-			(project "mixpower-path-mini-bq25672-lv-board-r1"
-				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "D3")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -5566,13 +5502,17 @@
 		(at 100.33 139.7 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp yes)
 		(uuid "30f67c6d-5323-492b-ac2d-63ef4c07850a")
-		(property "Reference" "C26"
+		(property "Reference" "C31"
 			(at 102.87 138.4362 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5582,6 +5522,8 @@
 		)
 		(property "Value" "47n"
 			(at 102.87 140.9762 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5591,29 +5533,35 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 100.33 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 100.33 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 100.33 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5621,6 +5569,259 @@
 		)
 		(pin "1"
 			(uuid "133aa59a-4df7-43b6-976b-b405cc5253d7")
+		)
+		(instances
+			(project "mixpower-path-mini-bq25672-lv-board-r1"
+				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 27.94 104.14 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3af16e90-bd6f-4d23-9c96-c879d6f2c7b5")
+		(property "Reference" "#FLG09"
+			(at 26.035 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 22.86 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 27.94 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "40c44540-4a90-4b03-8c1e-ca640c8a263b")
+		)
+		(instances
+			(project "mixpower-path-mini-bq25672-lv-board-r1"
+				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
+					(reference "#FLG09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 100.33 125.73 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "489bc02b-126f-438e-a94b-7390feb62741")
+		(property "Reference" "R30"
+			(at 102.87 124.4599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1M"
+			(at 102.87 126.9999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 100.33 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 100.33 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "43eba69b-ab27-4d54-a57a-ad7749da9a35")
+		)
+		(pin "1"
+			(uuid "2909b94a-910d-4d51-a289-d884e81d4252")
+		)
+		(instances
+			(project "mixpower-path-mini-bq25672-lv-board-r1"
+				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 55.88 147.32 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4f6514dd-3b81-4e31-90f2-60ff2cbb9461")
+		(property "Reference" "C26"
+			(at 58.42 146.0562 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47u"
+			(at 58.42 148.5962 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 55.88 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 55.88 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 58.42 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "bc3f99fb-4bae-43ee-8b33-966abbfdbaae")
+		)
+		(pin "1"
+			(uuid "f95cf97b-ffba-4126-ac44-45ab6efd8105")
 		)
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
@@ -5633,536 +5834,70 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 85.09 105.41 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3278b5f0-fbbe-4996-bdde-5a4666c06ded")
-		(property "Reference" "#PWR017"
-			(at 85.09 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 85.09 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b4386237-c33b-43cf-9385-eab6ddcb2e02")
-		)
-		(instances
-			(project "mixpower-path-mini-bq25672-lv-board-r1"
-				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 71.12 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3368c704-1b1b-4f60-a577-68b9d03e22c7")
-		(property "Reference" "#PWR032"
-			(at 71.12 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 71.12 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "05cd2bda-fa6c-4b19-90db-40716dc2f192")
-		)
-		(instances
-			(project "mixpower-path-mini-bq25672-lv-board-r1"
-				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 33.02 147.32 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "389b9970-86ab-4035-8601-bbd2e9b2f557")
-		(property "Reference" "C27"
-			(at 35.56 146.0562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10u"
-			(at 35.56 148.5962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 33.02 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 33.02 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 33.02 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e985ea4e-1b6a-41b5-86f0-a4295c6ce79f")
-		)
-		(pin "1"
-			(uuid "af98ba9e-7185-4711-9b7c-0ac661c8fffd")
-		)
-		(instances
-			(project "mixpower-path-mini-bq25672-lv-board-r1"
-				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 30.48 104.14 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3af16e90-bd6f-4d23-9c96-c879d6f2c7b5")
-		(property "Reference" "#FLG03"
-			(at 28.575 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 25.4 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 30.48 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 30.48 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "40c44540-4a90-4b03-8c1e-ca640c8a263b")
-		)
-		(instances
-			(project "mixpower-path-mini-bq25672-lv-board-r1"
-				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 71.12 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41507343-0d51-443a-8390-8d5b28339114")
-		(property "Reference" "#PWR039"
-			(at 71.12 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 71.12 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "00eab65f-28d8-4ce3-b4d3-f63b37b84953")
-		)
-		(instances
-			(project "mixpower-path-mini-bq25672-lv-board-r1"
-				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:BZX384xxxx")
-		(at 52.07 48.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4290cf57-b838-432a-8e63-35465a838611")
-		(property "Reference" "D2"
-			(at 54.61 46.9899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "BZX384-A10"
-			(at 54.61 49.5299 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 56.515 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85764/bzx384.pdf"
-			(at 52.07 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "300mW Zener Diode, SOD-323"
-			(at 52.07 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "930b5856-bf09-4a7f-85d7-9c9cd9bf4ad5")
-		)
-		(pin "2"
-			(uuid "a1aeec02-9ee1-4415-90d4-c22aca6ac014")
-		)
-		(instances
-			(project "mixpower-path-mini-bq25672-lv-board-r1"
-				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 100.33 124.46 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "489bc02b-126f-438e-a94b-7390feb62741")
-		(property "Reference" "R18"
-			(at 102.87 123.1899 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1M"
-			(at 102.87 125.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 100.33 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 100.33 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "43eba69b-ab27-4d54-a57a-ad7749da9a35")
-		)
-		(pin "1"
-			(uuid "2909b94a-910d-4d51-a289-d884e81d4252")
-		)
-		(instances
-			(project "mixpower-path-mini-bq25672-lv-board-r1"
-				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 30.48 57.15 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f827618-e889-46ca-959e-b62de7dad7d0")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR024"
 			(at 30.48 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 30.48 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 30.48 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 30.48 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 30.48 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6171,7 +5906,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "#PWR016")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -6182,13 +5917,17 @@
 		(at 129.54 67.31 90)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "51ec1edf-de97-4cc6-85c7-78188e4746d7")
-		(property "Reference" "C12"
+		(property "Reference" "C33"
 			(at 127.0063 63.5 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6197,6 +5936,8 @@
 		)
 		(property "Value" "47n"
 			(at 132.5943 63.5 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6205,29 +5946,35 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 129.54 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 129.54 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 129.54 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6239,7 +5986,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "C12")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -6249,13 +5996,17 @@
 		(lib_id "Device:C_Small")
 		(at 35.56 66.04 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "54a35098-a0b5-4e8f-8cb2-da5af66e636c")
-		(property "Reference" "C11"
+		(property "Reference" "C18"
 			(at 33.02 64.7762 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6265,6 +6016,8 @@
 		)
 		(property "Value" "100n"
 			(at 33.02 67.3162 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6274,29 +6027,35 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 35.56 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 35.56 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 35.56 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6308,7 +6067,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "C11")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -6316,16 +6075,20 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 45.72 147.32 0)
+		(at 43.18 147.32 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "58ddf92f-079c-4323-bcce-fd445bc2e1b0")
-		(property "Reference" "C28"
-			(at 48.26 146.0562 0)
+		(property "Reference" "C22"
+			(at 45.72 146.0562 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6334,7 +6097,9 @@
 			)
 		)
 		(property "Value" "100u"
-			(at 48.26 148.5962 0)
+			(at 45.72 148.5962 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6343,30 +6108,36 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 45.72 147.32 0)
+			(at 43.18 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 45.72 147.32 0)
+		(property "Datasheet" ""
+			(at 43.18 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 45.72 147.32 0)
+			(at 43.18 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6378,7 +6149,100 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "C28")
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 30.48 147.32 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "592d8a72-57bb-4895-8ed0-94bcfae3b856")
+		(property "Reference" "C16"
+			(at 33.02 146.0562 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10u"
+			(at 33.02 148.5962 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 30.48 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 30.48 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "35V"
+			(at 33.02 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "3c0db295-aeb7-47a5-9517-8c6d0a9cd855")
+		)
+		(pin "1"
+			(uuid "250ad9e8-5a7e-44e2-9298-f6559a9d5082")
+		)
+		(instances
+			(project "mixpower-path-mini-bq25672-lv-board-r1"
+				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -6388,13 +6252,17 @@
 		(lib_id "mixlib-discrete-mosfet:DMN3032LFDBQ")
 		(at 76.2 72.39 270)
 		(unit 2)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
-		(uuid "6b0187d7-279b-4312-8732-fba427eeb785")
-		(property "Reference" "Q3"
+		(uuid "5df626e1-31d3-46c9-8a53-8d23378c3b30")
+		(property "Reference" "Q6"
 			(at 81.788 73.914 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6403,6 +6271,8 @@
 		)
 		(property "Value" "DMN3032LFDBQ"
 			(at 81.788 76.454 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -6411,29 +6281,35 @@
 		)
 		(property "Footprint" "mixlib-generic-dfn:Diodes-Incorporated_U-DFN2020-6_Type-B"
 			(at 65.024 76.962 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/datasheet/download/DMN3032LFDBQ.pdf"
 			(at 64.516 75.946 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "30V, 5A, DUAL N-CHANNEL ENHANCEMENT MODE MOSFET, U-DFN2020-6"
 			(at 64.008 83.312 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "6"
@@ -6443,10 +6319,10 @@
 			(uuid "4b416041-4eaa-4e8c-9d3a-62b156f1b2e9")
 		)
 		(pin "4"
-			(uuid "55838db9-7cb9-45ee-b740-d60a7e10561d")
+			(uuid "cb92cdef-258a-4b8b-9e22-f78a28d86bdd")
 		)
 		(pin "8"
-			(uuid "2cb91700-af66-4435-ab2a-de7dc8ee42a7")
+			(uuid "02c05fee-9bed-498d-ba63-5b31003f6baf")
 		)
 		(pin "7"
 			(uuid "53bb906b-6927-4c6f-a4bc-ef40144e5713")
@@ -6455,15 +6331,15 @@
 			(uuid "10ef03cd-5c6e-4b16-b252-f046af4e2b58")
 		)
 		(pin "5"
-			(uuid "e86a246c-f6b4-4ebc-b76f-7007b404208f")
+			(uuid "bd576fa4-ddca-47c4-95f5-ceed129eb181")
 		)
 		(pin "3"
-			(uuid "1801f295-c3e3-4e94-b2c6-345a05c10650")
+			(uuid "e7208ca1-af63-4380-9388-d1b45a85ab59")
 		)
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "Q3")
+					(reference "Q6")
 					(unit 2)
 				)
 			)
@@ -6471,57 +6347,69 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 137.16 0)
+		(at 55.88 137.16 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70581f40-892b-4608-98b9-b2b6e2eea1c6")
-		(property "Reference" "#PWR031"
-			(at 58.42 143.51 0)
+		(property "Reference" "#PWR034"
+			(at 55.88 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 142.24 0)
+			(at 55.88 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 137.16 0)
+			(at 55.88 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 137.16 0)
+			(at 55.88 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 137.16 0)
+			(at 55.88 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6530,7 +6418,100 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "#PWR031")
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 43.18 109.22 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7743d805-dc03-44aa-aae9-673cb85650eb")
+		(property "Reference" "C19"
+			(at 45.72 107.9562 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10u"
+			(at 45.72 110.4962 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 43.18 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 43.18 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "35V"
+			(at 45.72 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "628925a9-891e-4b16-847a-ae210fb581df")
+		)
+		(pin "1"
+			(uuid "5321edd9-01a2-450a-8991-584e3b4439b8")
+		)
+		(instances
+			(project "mixpower-path-mini-bq25672-lv-board-r1"
+				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -6540,13 +6521,17 @@
 		(lib_id "Device:R_Small")
 		(at 109.22 139.7 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "797a1a30-7c00-4dd2-a48d-d3cdd3bcce1d")
-		(property "Reference" "R21"
+		(property "Reference" "R32"
 			(at 111.76 138.4299 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -6556,6 +6541,8 @@
 		)
 		(property "Value" "30k"
 			(at 111.76 140.9699 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6565,29 +6552,35 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 109.22 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 109.22 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 109.22 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6599,7 +6592,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "R21")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -6607,57 +6600,69 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 124.46 0)
+		(at 30.48 124.46 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79f8ccc5-8c46-4515-8d1b-5e4d1b6f593d")
 		(property "Reference" "#PWR026"
-			(at 33.02 130.81 0)
+			(at 30.48 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 129.54 0)
+			(at 30.48 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 124.46 0)
+			(at 30.48 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 124.46 0)
+			(at 30.48 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 124.46 0)
+			(at 30.48 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6674,16 +6679,20 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 33.02 121.92 0)
+		(at 30.48 121.92 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "969debd0-82d0-4b17-a84c-43d90ec816b7")
-		(property "Reference" "C19"
-			(at 35.56 120.6562 0)
+		(property "Reference" "C15"
+			(at 33.02 120.6562 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6692,7 +6701,9 @@
 			)
 		)
 		(property "Value" "100u"
-			(at 35.56 123.1962 0)
+			(at 33.02 123.1962 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6701,30 +6712,36 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 33.02 121.92 0)
+			(at 30.48 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 33.02 121.92 0)
+		(property "Datasheet" ""
+			(at 30.48 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 33.02 121.92 0)
+			(at 30.48 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6736,77 +6753,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 71.12 147.32 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9c499752-eb77-48c4-a211-370cb34f443b")
-		(property "Reference" "C30"
-			(at 73.66 146.0562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22u"
-			(at 73.66 148.5962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 71.12 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 71.12 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "62ee9308-37f5-418e-9fda-06f282367e43")
-		)
-		(pin "1"
-			(uuid "332aae50-c719-444e-9c59-487e71b14af5")
-		)
-		(instances
-			(project "mixpower-path-mini-bq25672-lv-board-r1"
-				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "C30")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -6816,13 +6763,17 @@
 		(lib_id "Device:C_Small")
 		(at 35.56 48.26 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d9ef8c7-e9fa-4695-8b8a-f345da9465f9")
-		(property "Reference" "C7"
+		(property "Reference" "C17"
 			(at 33.02 46.9962 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6832,6 +6783,8 @@
 		)
 		(property "Value" "100n"
 			(at 33.02 49.5362 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6841,29 +6794,35 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 35.56 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 35.56 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 35.56 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6875,7 +6834,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "C7")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -6885,55 +6844,67 @@
 		(lib_id "power:GND")
 		(at 134.62 107.95 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ec0c08e-22fc-4eea-87e1-464c68f38ecb")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR043"
 			(at 134.62 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 134.62 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 134.62 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 134.62 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 134.62 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6942,7 +6913,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "#PWR020")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -6950,57 +6921,69 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 137.16 0)
+		(at 43.18 137.16 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a33ecf01-5059-4ca9-8a8f-53e2369fe9b1")
 		(property "Reference" "#PWR030"
-			(at 45.72 143.51 0)
+			(at 43.18 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 142.24 0)
+			(at 43.18 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 137.16 0)
+			(at 43.18 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 137.16 0)
+			(at 43.18 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 137.16 0)
+			(at 43.18 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7017,57 +7000,69 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 149.86 0)
+		(at 55.88 149.86 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6da857c-dfd7-4685-b4fc-ac11b22a9751")
-		(property "Reference" "#PWR038"
-			(at 58.42 156.21 0)
+		(property "Reference" "#PWR035"
+			(at 55.88 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 154.94 0)
+			(at 55.88 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 149.86 0)
+			(at 55.88 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 149.86 0)
+			(at 55.88 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 149.86 0)
+			(at 55.88 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7076,7 +7071,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "#PWR038")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -7087,13 +7082,17 @@
 		(at 129.54 57.15 90)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "a7447b7f-0469-4a71-b434-e2ca3c414c16")
-		(property "Reference" "C9"
+		(property "Reference" "C32"
 			(at 127.0063 54.102 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7102,6 +7101,8 @@
 		)
 		(property "Value" "47n"
 			(at 132.5943 54.102 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7110,29 +7111,35 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 129.54 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 129.54 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 129.54 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7144,77 +7151,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 71.12 134.62 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aa523355-e654-4ea3-8e50-3a0a2157134f")
-		(property "Reference" "C25"
-			(at 73.66 133.3562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22u"
-			(at 73.66 135.8962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 71.12 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 71.12 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "49511c1a-8586-4c23-b545-95005d5718b2")
-		)
-		(pin "1"
-			(uuid "0b99a002-c483-4cb9-a07a-58fe00be8af3")
-		)
-		(instances
-			(project "mixpower-path-mini-bq25672-lv-board-r1"
-				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "C25")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -7222,57 +7159,69 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 71.12 111.76 0)
+		(at 68.58 111.76 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abcc522c-87a1-4ae0-ab84-9404bc5ae9c1")
-		(property "Reference" "#PWR025"
-			(at 71.12 118.11 0)
+		(property "Reference" "#PWR036"
+			(at 68.58 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 71.12 116.84 0)
+			(at 68.58 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 111.76 0)
+			(at 68.58 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 111.76 0)
+			(at 68.58 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 111.76 0)
+			(at 68.58 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7281,77 +7230,105 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "#PWR025")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 45.72 109.22 0)
-		(mirror y)
+		(lib_id "mixlib-discrete-mosfet:DMN3032LFDBQ")
+		(at 45.72 72.39 90)
+		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
-		(uuid "ae1249b6-7980-4921-878c-bec51f536465")
-		(property "Reference" "C16"
-			(at 48.26 107.9562 0)
+		(uuid "b01bec91-5782-4089-af6b-22b32e30b4b4")
+		(property "Reference" "Q6"
+			(at 40.64 73.66 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "10u"
-			(at 48.26 110.4962 0)
+		(property "Value" "DMN3032LFDBQ"
+			(at 40.64 76.2 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 45.72 109.22 0)
+		(property "Footprint" "mixlib-generic-dfn:Diodes-Incorporated_U-DFN2020-6_Type-B"
+			(at 56.896 76.962 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 45.72 109.22 0)
+		(property "Datasheet" "https://www.diodes.com/datasheet/download/DMN3032LFDBQ.pdf"
+			(at 57.404 75.946 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 45.72 109.22 0)
+		(property "Description" "30V, 5A, DUAL N-CHANNEL ENHANCEMENT MODE MOSFET, U-DFN2020-6"
+			(at 57.912 83.312 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
+		)
+		(pin "6"
+			(uuid "4daffe66-00a2-4ba9-81d0-e086c3d747bb")
 		)
 		(pin "2"
-			(uuid "7170a348-3a44-4b7a-93c2-9830a3393165")
+			(uuid "9d4a9aaf-e62e-455d-8242-7c40023a8c74")
+		)
+		(pin "4"
+			(uuid "8907e6c0-053e-445d-afec-7bbed53f4c37")
+		)
+		(pin "8"
+			(uuid "bd33512d-46e6-4404-964f-c47cc2ee3e21")
+		)
+		(pin "7"
+			(uuid "0aa39eb2-10b1-402f-9e31-df08984bbae4")
 		)
 		(pin "1"
-			(uuid "1b15d0fa-7f8d-42d0-befa-3f6bca09d505")
+			(uuid "9cfb60ba-c048-470a-a070-c27c52d2de8b")
+		)
+		(pin "5"
+			(uuid "e157c453-32e0-48c3-acfd-8f93fb02808b")
+		)
+		(pin "3"
+			(uuid "c49fd691-4468-4c2c-aabf-5fbf421a6469")
 		)
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "C16")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -7359,15 +7336,19 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 120.65 124.46 180)
+		(at 120.65 125.73 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "b11be3d9-977d-4cb7-9cad-1ef2f34ab230")
-		(property "Reference" "R20"
-			(at 123.19 123.1899 0)
+		(property "Reference" "R33"
+			(at 123.19 124.4599 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -7376,7 +7357,9 @@
 			)
 		)
 		(property "Value" "127k"
-			(at 123.19 125.7299 0)
+			(at 123.19 126.9999 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7385,30 +7368,36 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 120.65 124.46 0)
+			(at 120.65 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 120.65 124.46 0)
+		(property "Datasheet" ""
+			(at 120.65 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 120.65 124.46 0)
+			(at 120.65 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7420,7 +7409,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "R20")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -7430,14 +7419,18 @@
 		(lib_id "Device:R_Small")
 		(at 81.28 54.61 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b19ffa8f-40e2-4d4c-be56-4758062d65a4")
-		(property "Reference" "R11"
+		(property "Reference" "R27"
 			(at 81.28 49.53 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -7446,6 +7439,8 @@
 		)
 		(property "Value" "220"
 			(at 81.28 52.07 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7454,29 +7449,35 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 81.28 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 81.28 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 81.28 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7488,7 +7489,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "R11")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -7499,13 +7500,17 @@
 		(at 143.51 104.14 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "b380027e-0bca-48ef-9ef0-893283f4fff2")
-		(property "Reference" "C14"
+		(property "Reference" "C35"
 			(at 146.05 102.8762 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7515,6 +7520,8 @@
 		)
 		(property "Value" "47n"
 			(at 146.05 105.4162 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7524,29 +7531,35 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 143.51 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 143.51 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 143.51 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7558,7 +7571,100 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "C14")
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 68.58 109.22 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b78f4302-2054-4594-9ab9-95c37b09bb5b")
+		(property "Reference" "C29"
+			(at 71.12 107.9562 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10u"
+			(at 71.12 110.4962 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 68.58 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 68.58 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "35V"
+			(at 71.12 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "f709ccec-948b-40fe-9e5a-641325281166")
+		)
+		(pin "1"
+			(uuid "01eeaf0a-3ad9-40d9-969d-715719b3be00")
+		)
+		(instances
+			(project "mixpower-path-mini-bq25672-lv-board-r1"
+				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -7566,57 +7672,69 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 71.12 124.46 0)
+		(at 68.58 124.46 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf5abd92-8aa2-48cf-8210-95270b0b0c5d")
-		(property "Reference" "#PWR029"
-			(at 71.12 130.81 0)
+		(property "Reference" "#PWR037"
+			(at 68.58 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 71.12 129.54 0)
+			(at 68.58 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 124.46 0)
+			(at 68.58 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 124.46 0)
+			(at 68.58 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 124.46 0)
+			(at 68.58 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7625,7 +7743,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "#PWR029")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -7635,14 +7753,18 @@
 		(lib_id "Device:LED_Small")
 		(at 87.63 139.7 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c515b0d6-78e5-4012-8b17-bec19027d067")
-		(property "Reference" "D4"
+		(property "Reference" "D6"
 			(at 90.17 138.3664 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7652,6 +7774,8 @@
 		)
 		(property "Value" "RED_CHG"
 			(at 90.17 140.9064 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -7661,38 +7785,46 @@
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 87.63 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 87.63 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
 			(at 87.63 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 87.63 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7704,7 +7836,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "D4")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -7712,57 +7844,69 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 124.46 0)
+		(at 43.18 124.46 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c81832c5-ebd8-4a66-bc97-66d657a4f130")
-		(property "Reference" "#PWR027"
-			(at 45.72 130.81 0)
+		(property "Reference" "#PWR029"
+			(at 43.18 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 129.54 0)
+			(at 43.18 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 124.46 0)
+			(at 43.18 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 124.46 0)
+			(at 43.18 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 124.46 0)
+			(at 43.18 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7771,7 +7915,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "#PWR027")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -7781,14 +7925,18 @@
 		(lib_id "mixlib-pmic-battery:BQ25672")
 		(at 107.95 78.74 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9f118ad-dc2c-435a-81c7-efa602b0e8e2")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 107.95 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7797,6 +7945,8 @@
 		)
 		(property "Value" "BQ25672"
 			(at 107.95 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7805,79 +7955,95 @@
 		)
 		(property "Footprint" "mixlib-vendor-ti:vendor-ti-RQM0029A-MFG"
 			(at 104.14 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq25672.pdf"
 			(at 107.188 126.238 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "I²C controlled, 1- to 4-cell, 3-A buck battery charger with dual-input selector and integrated ADC"
 			(at 107.188 124.714 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MF" "Texas Instruments"
 			(at 106.934 126.746 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Package" "VFQFN-29 Texas Instruments"
 			(at 107.188 124.714 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MFR" "BQ25672RQMR"
 			(at 108.712 125.984 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
 			(at 107.442 126.238 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "JLCPCB" "C3682029"
 			(at 108.458 127.508 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "4"
@@ -7970,7 +8136,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -7978,57 +8144,69 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 111.76 0)
+		(at 43.18 111.76 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca6f2364-2a43-481c-9beb-276a24b58c04")
-		(property "Reference" "#PWR023"
-			(at 45.72 118.11 0)
+		(property "Reference" "#PWR028"
+			(at 43.18 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 116.84 0)
+			(at 43.18 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 111.76 0)
+			(at 43.18 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 111.76 0)
+			(at 43.18 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 111.76 0)
+			(at 43.18 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8037,7 +8215,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "#PWR023")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -8047,55 +8225,67 @@
 		(lib_id "power:GND")
 		(at 120.65 142.24 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "caac054b-432d-4b71-a3b6-83e8593e0ea1")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR041"
 			(at 120.65 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 120.65 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 120.65 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 120.65 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 120.65 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8104,7 +8294,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "#PWR035")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -8112,15 +8302,19 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 109.22 124.46 180)
+		(at 109.22 125.73 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "cbf21486-5456-471a-990a-29a3d8e901b3")
-		(property "Reference" "R19"
-			(at 111.76 123.1899 0)
+		(property "Reference" "R31"
+			(at 111.76 124.4599 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -8129,7 +8323,9 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 111.76 125.7299 0)
+			(at 111.76 126.9999 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8138,30 +8334,36 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 109.22 124.46 0)
+			(at 109.22 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 109.22 124.46 0)
+		(property "Datasheet" ""
+			(at 109.22 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 109.22 124.46 0)
+			(at 109.22 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8173,7 +8375,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "R19")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -8181,57 +8383,69 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 111.76 0)
+		(at 30.48 111.76 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc6ab716-03d6-40f6-91cd-8fdf6ba79ed3")
-		(property "Reference" "#PWR022"
-			(at 33.02 118.11 0)
+		(property "Reference" "#PWR025"
+			(at 30.48 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 116.84 0)
+			(at 30.48 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 111.76 0)
+			(at 30.48 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 111.76 0)
+			(at 30.48 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 111.76 0)
+			(at 30.48 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8240,7 +8454,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "#PWR022")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -8251,55 +8465,67 @@
 		(at 107.95 107.95 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cebcc720-c353-4ed9-9f2b-0f60f516c2f4")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR039"
 			(at 107.95 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 107.95 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 107.95 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 107.95 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 107.95 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8308,7 +8534,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "#PWR018")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -8318,14 +8544,18 @@
 		(lib_id "Device:L_Small")
 		(at 137.16 62.23 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cebe9c50-dc6f-4720-a849-7335801351b2")
 		(property "Reference" "L1"
 			(at 138.43 60.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8335,6 +8565,8 @@
 		)
 		(property "Value" "1u"
 			(at 138.43 63.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8342,31 +8574,37 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Coilcraft_XAL4040-XXX"
+		(property "Footprint" "Inductor_SMD:L_Coilcraft_XAL4020-XXX"
 			(at 137.16 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 137.16 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Inductor, small symbol"
 			(at 137.16 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8385,154 +8623,21 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 85.09 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "d2762e23-497f-4a52-bad8-a4e157aa30d4")
-		(property "Reference" "R15"
-			(at 87.63 101.5999 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 87.63 104.1399 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 85.09 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.09 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 85.09 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9acc44c9-d76f-4f01-b711-0d93fde3c022")
-		)
-		(pin "1"
-			(uuid "eb30eeef-a894-4cba-9b39-f932367ae9e1")
-		)
-		(instances
-			(project "mixpower-path-mini-bq25672-lv-board-r1"
-				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 109.22 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d81b983d-f886-475a-a8f9-7d0d31bc0fa2")
-		(property "Reference" "#PWR034"
-			(at 109.22 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 109.22 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ce54203f-e45b-469c-be4b-7bd1552fbdbf")
-		)
-		(instances
-			(project "mixpower-path-mini-bq25672-lv-board-r1"
-				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
-		(at 45.72 121.92 0)
+		(at 55.88 109.22 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
-		(uuid "daaf8e01-e9a7-48f4-9394-6864fd03181d")
-		(property "Reference" "C20"
-			(at 48.26 120.6562 0)
+		(uuid "cf61e0b9-0ac1-41f0-a6d1-e440be7ae140")
+		(property "Reference" "C23"
+			(at 58.42 107.9562 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8541,77 +8646,9 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 48.26 123.1962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 45.72 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 45.72 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9d498e52-e14d-4844-b224-6c3e0f0ab6e3")
-		)
-		(pin "1"
-			(uuid "bb5ddccf-e7ac-427c-9ca6-9b664723d69b")
-		)
-		(instances
-			(project "mixpower-path-mini-bq25672-lv-board-r1"
-				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 45.72 134.62 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e10f4a27-22eb-410a-9637-8ce6c941a8d6")
-		(property "Reference" "C23"
-			(at 48.26 133.3562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100u"
-			(at 48.26 135.8962 0)
+			(at 58.42 110.4962 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8620,37 +8657,54 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 45.72 134.62 0)
+			(at 55.88 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 45.72 134.62 0)
+		(property "Datasheet" ""
+			(at 55.88 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 45.72 134.62 0)
+			(at 55.88 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "Voltage" "35V"
+			(at 58.42 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
 			)
 		)
 		(pin "2"
-			(uuid "84a59a58-854e-410d-8d49-645890c28531")
+			(uuid "9adc8f77-6013-4fa2-a33b-8561294cc8e9")
 		)
 		(pin "1"
-			(uuid "a8c6668d-e51a-4869-810a-82f1d75cb739")
+			(uuid "2d459a14-681d-43a5-bcaa-566c45a558d9")
 		)
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
@@ -8662,17 +8716,361 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 58.42 134.62 0)
-		(mirror y)
-		(unit 1)
+		(lib_id "mixlib-discrete-mosfet:DMN3032LFDBQ")
+		(at 76.2 41.91 270)
+		(mirror x)
+		(unit 2)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
-		(uuid "e4b13437-ba8b-481f-bd15-e1c1324509b8")
-		(property "Reference" "C24"
-			(at 60.96 133.3562 0)
+		(fields_autoplaced yes)
+		(uuid "d6a2b1b0-dd74-4ec3-b97a-1a0bb4963123")
+		(property "Reference" "Q5"
+			(at 76.2 35.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DMN3032LFDBQ"
+			(at 76.2 38.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "mixlib-generic-dfn:Diodes-Incorporated_U-DFN2020-6_Type-B"
+			(at 65.024 37.338 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/datasheet/download/DMN3032LFDBQ.pdf"
+			(at 64.516 38.354 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "30V, 5A, DUAL N-CHANNEL ENHANCEMENT MODE MOSFET, U-DFN2020-6"
+			(at 64.008 30.988 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "13c8622f-41d1-4c9c-b615-d8c08710d631")
+		)
+		(pin "2"
+			(uuid "4b416041-4eaa-4e8c-9d3a-62b156f1b2e8")
+		)
+		(pin "4"
+			(uuid "493a9b23-c82c-4ad7-8dd9-1e68e112a969")
+		)
+		(pin "8"
+			(uuid "10c82e4e-6ff7-4b5c-b688-753df8ca70e6")
+		)
+		(pin "7"
+			(uuid "53bb906b-6927-4c6f-a4bc-ef40144e5712")
+		)
+		(pin "1"
+			(uuid "10ef03cd-5c6e-4b16-b252-f046af4e2b57")
+		)
+		(pin "5"
+			(uuid "c914404d-a19a-49e4-b4a3-48d4cd69e55c")
+		)
+		(pin "3"
+			(uuid "25769fd5-a41e-43c9-a676-2e5fbbbac5a1")
+		)
+		(instances
+			(project "mixpower-path-mini-bq25672-lv-board-r1"
+				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
+					(reference "Q5")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 109.22 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d81b983d-f886-475a-a8f9-7d0d31bc0fa2")
+		(property "Reference" "#PWR040"
+			(at 109.22 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ce54203f-e45b-469c-be4b-7bd1552fbdbf")
+		)
+		(instances
+			(project "mixpower-path-mini-bq25672-lv-board-r1"
+				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 66.04 81.28 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d8d958b7-18e9-4c89-be96-ebb7358a4e3e")
+		(property "Reference" "R25"
+			(at 62.23 82.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 68.58 82.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 66.04 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 66.04 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f1b97d17-ae97-465d-9cc7-d92ca56edea0")
+		)
+		(pin "1"
+			(uuid "427794df-07d8-4739-bab6-925ee8112ae2")
+		)
+		(instances
+			(project "mixpower-path-mini-bq25672-lv-board-r1"
+				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:DZ2S180X0L")
+		(at 52.07 64.77 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcd5dfb4-2812-40e4-920b-46c92a27bb9f")
+		(property "Reference" "D5"
+			(at 54.61 63.4999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BZX584C18"
+			(at 54.61 66.0399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 47.625 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S18000L_E.pdf"
+			(at 52.07 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "150mW Silicon Planar Zener Diode, 18V, SOD-523"
+			(at 52.07 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1d0f9631-2849-4760-bbac-989418380ea4")
+		)
+		(pin "1"
+			(uuid "b00048c9-38bb-4c7c-be50-03bbbcacdfb7")
+		)
+		(instances
+			(project "mixpower-path-mini-bq25672-lv-board-r1"
+				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 43.18 134.62 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e10f4a27-22eb-410a-9637-8ce6c941a8d6")
+		(property "Reference" "C21"
+			(at 45.72 133.3562 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8680,8 +9078,92 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22u"
-			(at 60.96 135.8962 0)
+		(property "Value" "100u"
+			(at 45.72 135.8962 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 43.18 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 43.18 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "84a59a58-854e-410d-8d49-645890c28531")
+		)
+		(pin "1"
+			(uuid "a8c6668d-e51a-4869-810a-82f1d75cb739")
+		)
+		(instances
+			(project "mixpower-path-mini-bq25672-lv-board-r1"
+				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 55.88 134.62 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e4b13437-ba8b-481f-bd15-e1c1324509b8")
+		(property "Reference" "C25"
+			(at 58.42 133.3562 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47u"
+			(at 58.42 135.8962 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8690,30 +9172,47 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 58.42 134.62 0)
+			(at 55.88 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 58.42 134.62 0)
+		(property "Datasheet" ""
+			(at 55.88 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 58.42 134.62 0)
+			(at 55.88 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 58.42 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
 			)
 		)
 		(pin "2"
@@ -8725,7 +9224,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "C24")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -8733,57 +9232,69 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 111.76 0)
+		(at 55.88 111.76 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5cb1281-e609-4b31-a3b6-0558149f35a9")
-		(property "Reference" "#PWR024"
-			(at 58.42 118.11 0)
+		(property "Reference" "#PWR032"
+			(at 55.88 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 116.84 0)
+			(at 55.88 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 111.76 0)
+			(at 55.88 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 111.76 0)
+			(at 55.88 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 111.76 0)
+			(at 55.88 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8792,7 +9303,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "#PWR024")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -8800,15 +9311,19 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 87.63 124.46 180)
+		(at 87.63 125.73 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "e6d927f9-d6d9-4dbc-8ed4-c62237bafbf4")
-		(property "Reference" "R17"
-			(at 90.17 123.1899 0)
+		(property "Reference" "R29"
+			(at 90.17 124.4599 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -8817,7 +9332,9 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 90.17 125.7299 0)
+			(at 90.17 126.9999 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8826,30 +9343,36 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 87.63 124.46 0)
+			(at 87.63 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 87.63 124.46 0)
+		(property "Datasheet" ""
+			(at 87.63 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 87.63 124.46 0)
+			(at 87.63 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8861,7 +9384,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "R17")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -8871,13 +9394,17 @@
 		(lib_id "Device:R_Small")
 		(at 120.65 139.7 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8f83d2e-7cc0-4bde-8784-69a416b0b890")
-		(property "Reference" "R22"
+		(property "Reference" "R34"
 			(at 123.19 138.4299 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -8887,6 +9414,8 @@
 		)
 		(property "Value" "100k"
 			(at 123.19 140.9699 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8896,29 +9425,35 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 120.65 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 120.65 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 120.65 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8930,7 +9465,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "R22")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -8940,55 +9475,67 @@
 		(lib_id "power:GND")
 		(at 143.51 107.95 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea661b5c-5233-4833-92bf-4d0aa9e6c2ba")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR044"
 			(at 143.51 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 143.51 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 143.51 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 143.51 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 143.51 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8997,77 +9544,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 58.42 147.32 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eb9c1129-a8e7-4640-bb7a-4fd0cd1fc8d8")
-		(property "Reference" "C29"
-			(at 60.96 146.0562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22u"
-			(at 60.96 148.5962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 58.42 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 58.42 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "27de90a1-e970-4cc4-901e-5662eb953f48")
-		)
-		(pin "1"
-			(uuid "6408cb86-7bfe-4ebf-a133-b7c88a0f2b7f")
-		)
-		(instances
-			(project "mixpower-path-mini-bq25672-lv-board-r1"
-				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "C29")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -9078,13 +9555,17 @@
 		(at 151.13 93.98 270)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec539c43-9ffe-455a-88c3-2bf2214cb3ff")
-		(property "Reference" "R13"
+		(property "Reference" "R36"
 			(at 151.13 89.916 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -9093,6 +9574,8 @@
 		)
 		(property "Value" "100"
 			(at 151.13 91.948 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -9101,29 +9584,35 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 151.13 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 151.13 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 151.13 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9135,7 +9624,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "R13")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -9146,13 +9635,17 @@
 		(at 67.31 48.26 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "f73177f3-0af0-4204-98a7-b210f7e063d6")
-		(property "Reference" "C8"
+		(property "Reference" "C27"
 			(at 69.85 46.9962 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9162,6 +9655,8 @@
 		)
 		(property "Value" "1n"
 			(at 69.85 49.5362 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9171,29 +9666,35 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 67.31 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 67.31 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 67.31 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9205,7 +9706,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "C8")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -9213,16 +9714,20 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 58.42 109.22 0)
+		(at 43.18 121.92 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
-		(uuid "f8fdcdef-5197-4759-a6b9-dde99c54c8e9")
-		(property "Reference" "C17"
-			(at 60.96 107.9562 0)
+		(uuid "faca9d31-d16d-4c33-b9e6-746b2e1f606a")
+		(property "Reference" "C20"
+			(at 45.72 120.6562 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9231,7 +9736,9 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 60.96 110.4962 0)
+			(at 45.72 123.1962 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9239,43 +9746,222 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 58.42 109.22 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 43.18 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 58.42 109.22 0)
+		(property "Datasheet" ""
+			(at 43.18 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 58.42 109.22 0)
+			(at 43.18 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "Voltage" "35V"
+			(at 45.72 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
 			)
 		)
 		(pin "2"
-			(uuid "9dd380b4-25af-4247-9c2d-7cc37270abad")
+			(uuid "4eccb3f0-576f-4bc7-8f0e-abdcb8ecaf5c")
 		)
 		(pin "1"
-			(uuid "0e99a5b2-b653-46ea-9bde-fda677b6d94e")
+			(uuid "60522d12-4f80-4982-98d6-3f25d3d61f1f")
 		)
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "C17")
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:DZ2S180X0L")
+		(at 52.07 48.26 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb46706a-0f6c-45a4-b771-6613cb4e574d")
+		(property "Reference" "D4"
+			(at 54.61 46.9899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BZX584C18"
+			(at 54.61 49.5299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 56.515 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S18000L_E.pdf"
+			(at 52.07 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "150mW Silicon Planar Zener Diode, 18V, SOD-523"
+			(at 52.07 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "61eaecc7-b3f1-4d2e-8692-3649d1a8a9d3")
+		)
+		(pin "1"
+			(uuid "5a61fb85-744f-4b03-b93a-3331b57a1883")
+		)
+		(instances
+			(project "mixpower-path-mini-bq25672-lv-board-r1"
+				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 66.04 78.74 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fb51d9db-57ce-4554-a64b-ebac0dbb051b")
+		(property "Reference" "R24"
+			(at 62.23 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 68.58 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 66.04 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 66.04 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c02d8e50-c5c4-4a36-8e12-829d9bac8e8f")
+		)
+		(pin "1"
+			(uuid "78c6f8e0-ed63-4a46-8ec9-3ebdace2f7b7")
+		)
+		(instances
+			(project "mixpower-path-mini-bq25672-lv-board-r1"
+				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -9286,13 +9972,17 @@
 		(at 134.62 104.14 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp yes)
 		(uuid "fd4054a6-c327-4703-a40c-dc370fa8588d")
-		(property "Reference" "C13"
+		(property "Reference" "C34"
 			(at 137.16 102.8762 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9302,6 +9992,8 @@
 		)
 		(property "Value" "1n"
 			(at 137.16 105.4162 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9311,29 +10003,35 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 134.62 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 134.62 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 134.62 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9345,7 +10043,7 @@
 		(instances
 			(project "mixpower-path-mini-bq25672-lv-board-r1"
 				(path "/2e43857b-9bf9-460c-948c-ec2cf8a8d6b4/62cc8ba8-a4a6-4ef3-833b-8755302cfb85"
-					(reference "C13")
+					(reference "C34")
 					(unit 1)
 				)
 			)
